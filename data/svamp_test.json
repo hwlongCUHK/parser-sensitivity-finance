@@ -1,0 +1,402 @@
+[
+  {
+    "question": "Josh had 20 marbles in his collection. He gave 2 marbles to Jack. How many marbles does Josh have now?",
+    "ground_truth": 18.0
+  },
+  {
+    "question": "Ed had 24 more marbles than Doug. Doug lost 27 of his marbles at the playground while Ed found 9 more marbles. How many more marbles did Ed have than Doug then?",
+    "ground_truth": 60.0
+  },
+  {
+    "question": "A book has 3 chapters. The first chapter is 66 pages long the second chapter is 35 pages long and the third chapter is 24 pages long. How many pages does the book have altogether?",
+    "ground_truth": 125.0
+  },
+  {
+    "question": "The Razorback shop makes $ 115 dollars off each jersey and $ 25 off each t-shirt. During the Arkansas and Texas tech game they sold 113 t-shirts and 78 jerseys. How much more does a jersey cost than a t-shirt?",
+    "ground_truth": 90.0
+  },
+  {
+    "question": "Baker made 144 cakes. He sold 71 of them. Then he made 111 more cakes. How many more cakes did baker make than those he sold?",
+    "ground_truth": 184.0
+  },
+  {
+    "question": "Mary is baking a cake. The recipe calls for 12 cups of flour 5 cups of sugar and 49 cups of salt. She already put in 11 cups of flour. How many more cups of flour does she need to add?",
+    "ground_truth": 1.0
+  },
+  {
+    "question": "In a school there are 402 more girls than boys. If there are 739 girls How many boys are there in that school?",
+    "ground_truth": 337.0
+  },
+  {
+    "question": "Bobby ate 17 pieces of candy. Then he ate 15 more. If he initially had 36 pieces of candy How many pieces of candy does he still have left?",
+    "ground_truth": 4.0
+  },
+  {
+    "question": "Jack received 4 emails in the morning, 5 emails in the afternoon and 8 emails in the evening. How many emails did Jack receive in the afternoon and evening?",
+    "ground_truth": 13.0
+  },
+  {
+    "question": "If they are already at 659 feet and the cave is 762 feet deep How much farther until they reach the end of the cave?",
+    "ground_truth": 103.0
+  },
+  {
+    "question": "Rebecca wants to split a collection of eggs into groups of 11. If each group has 2 eggs How many eggs does Rebecca have?",
+    "ground_truth": 22.0
+  },
+  {
+    "question": "7 red peaches, 15 yellow peaches and 8 green peaches are in the basket. How many peaches are in the basket?",
+    "ground_truth": 30.0
+  },
+  {
+    "question": "During summer break 907611 kids from Lawrence county stay home and the other 455682 kids go to camp. About how many kids are in Lawrence county?",
+    "ground_truth": 1363293.0
+  },
+  {
+    "question": "Rachel had to complete 10 pages of math homework. If she had to complete 3 more pages of reading homework than math homework How many pages did she have to complete in all?",
+    "ground_truth": 23.0
+  },
+  {
+    "question": "Paco had 25 cookies. He ate 5 of them. Then he bought 3 more cookies How many more cookies did he eat than those he bought?",
+    "ground_truth": 2.0
+  },
+  {
+    "question": "Ed had 2 more marbles than Doug. Doug lost some of his marbles at the playground. Now Ed has 19 more marbles than doug. How many marbles did Doug lose?",
+    "ground_truth": 17.0
+  },
+  {
+    "question": "There are 8 different books and 10 different movies in the ' crazy silly school ' series. If you read 19 of the books and watched 61 of the movies How many more movies than books are there in the ' crazy silly school ' series?",
+    "ground_truth": 2.0
+  },
+  {
+    "question": "Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?",
+    "ground_truth": 39.0
+  },
+  {
+    "question": "Brenda's mother made cookies for 5. She prepared 22 cookies but had to throw away 17 cookies. If each of them had the same number of cookies How many did each of them have?",
+    "ground_truth": 1.0
+  },
+  {
+    "question": "Danny has 21 bottle caps in his collection. He found some more bottle caps at the park. If he has 53 bottle caps now How many bottle caps did he find at the park?",
+    "ground_truth": 32.0
+  },
+  {
+    "question": "36 children were riding on the bus. At the bus stop 68 children got off the bus while some more got on the bus. Then there were 12 children altogether on the bus. How many more children got off the bus than those that got on?",
+    "ground_truth": 24.0
+  },
+  {
+    "question": "Paige raised 7 goldfish and 12 catfish in the pond but stray cats loved eating them. Now she has 15 left. How many fishes disappeared?",
+    "ground_truth": 4.0
+  },
+  {
+    "question": "Dan has $ 4. For a total of $ 3 he bought 10 candy bar each one costing the same amount of money. How much money is left?",
+    "ground_truth": 1.0
+  },
+  {
+    "question": "Jake has 8 fewer peaches and 10 more apples than Steven. Steven has 11 apples and 18 peaches. How many more peaches than apples does Steven have?",
+    "ground_truth": 7.0
+  },
+  {
+    "question": "Mary is baking a cake. The recipe calls for 6 cups of sugar and 9 cups of flour. She already put in 2 cups of flour. How many more cups of flour than cups of sugar does she need to add now?",
+    "ground_truth": 1.0
+  },
+  {
+    "question": "Allan brought 5 balloons. If Allan and Jake brought total of 6 balloons to the park How many balloons did Jake bring to the park?",
+    "ground_truth": 1.0
+  },
+  {
+    "question": "Because of the decision Sofia asked the students to suggest specific types of food. If 228 students suggested adding mashed potatoes 337 suggested adding bacon to the menu and 23 suggested adding tomatoes How many more students suggested bacon than those that suggested tomatoes?",
+    "ground_truth": 314.0
+  },
+  {
+    "question": "Melissa scored a total of 21 points playing some games. Is she scored 7 points in each game. How many games did she play?",
+    "ground_truth": 3.0
+  },
+  {
+    "question": "3 birds were sitting on the fence. 2 more birds and 6 more storks came to join them. How many more storks than birds are sitting on the fence?",
+    "ground_truth": 1.0
+  },
+  {
+    "question": "Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?",
+    "ground_truth": 720.0
+  },
+  {
+    "question": "There were 16 roses and 3 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 7 orchids and 13 roses in the vase. How many orchids did she cut?",
+    "ground_truth": 4.0
+  },
+  {
+    "question": "Adam has 10 apples. Jackie has 2 apples. How many more apples does Adam have than Jackie?",
+    "ground_truth": 8.0
+  },
+  {
+    "question": "The Razorback t-shirt shop makes $ 87 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 95 t-shirts. If they sold 47 t-shirts during the Arkansas game How much money did they make from selling the t-shirts?",
+    "ground_truth": 8265.0
+  },
+  {
+    "question": "Allan brought 5 balloons and Jake brought 6 balloons to the park. Jake then bought 3 more balloons at the park. How many balloons did Jake bring to the park?",
+    "ground_truth": 9.0
+  },
+  {
+    "question": "Winter is almost here and most animals are migrating to warmer countries. There were 89 bird families living near the mountain. If 60 bird families flew away for winter How many more bird families flew away for the winter than those that stayed behind?",
+    "ground_truth": 31.0
+  },
+  {
+    "question": "After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that 705 visitors came to the Buckingham palace that day. If there were 191 visitors the previous day and 457 visitors the day before that How many more visitors visited the Buckingham palace on that day than on the previous 245 days?",
+    "ground_truth": 57.0
+  },
+  {
+    "question": "Mary is baking a cake. The recipe calls for 3 cups of sugar and 10 cups of flour. She already put in some cups of flour. If she still needs 5 more cups of flour than sugar How many cups of flour did she put in?",
+    "ground_truth": 2.0
+  },
+  {
+    "question": "Zachary did 15 push-ups in gym class today. David did 39 more push-ups than Zachary. John did 9 push-ups less than David. How many more push-ups did Zachary do than John?",
+    "ground_truth": 30.0
+  },
+  {
+    "question": "Bobby had 22 pieces of candy. He ate some pieces of candy. Then he ate 5 more. If he still has 8 pieces of candy left How many pieces of candy had he eaten at the start?",
+    "ground_truth": 9.0
+  },
+  {
+    "question": "Lawrence county has 313473 kids. During summer break 274865 kids stay home and the rest go to camp. How many kids go to the camp during the break?",
+    "ground_truth": 38608.0
+  },
+  {
+    "question": "If each pack costs 81 dollars How much will it cost to buy 33 packs of dvds?",
+    "ground_truth": 2673.0
+  },
+  {
+    "question": "He then went to see the oranges being harvested. He found out that they harvest 44 sacks of ripe oranges and 25 sacks of unripe oranges per day. How many more sacks of ripe oranges than unripe oranges are harvested per day?",
+    "ground_truth": 19.0
+  },
+  {
+    "question": "15 campers went rowing in the morning. Some more campers went rowing in the afternoon. If a total of 32 campers went rowing that day How many campers went rowing in the afternoon?",
+    "ground_truth": 17.0
+  },
+  {
+    "question": "They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?",
+    "ground_truth": 117.0
+  },
+  {
+    "question": "Brenda's mother made cookies for 10 guests but 9 guests did not come. If she prepared 18 cookies and each guest had the same number of cookies How many did each of them have?",
+    "ground_truth": 18.0
+  },
+  {
+    "question": "Debby drinks 6 bottles a day. If she bought a total of 12 water bottles How many days would they last her?",
+    "ground_truth": 2.0
+  },
+  {
+    "question": "Dan has $ 2. He bought some candy bar for $ 6 each one costing $ 3. How many candy bar did he buy?",
+    "ground_truth": 2.0
+  },
+  {
+    "question": "White t - shirts can be purchased in packages of 53. If mom buys 57 packages of white t - shirts and 34 trousers How many white t - shirts will she have?",
+    "ground_truth": 3021.0
+  },
+  {
+    "question": "Jake has 11 fewer peaches than Steven. If Jake has 17 peaches. How many peaches does Steven have?",
+    "ground_truth": 28.0
+  },
+  {
+    "question": "6 red peaches, 90 yellow peaches and 16 green peaches are in the basket. How many red and green peaches are in the basket?",
+    "ground_truth": 22.0
+  },
+  {
+    "question": "Ed had 10 more marbles than Doug. Doug lost 11 of his marbles at the playground. If Ed had 45 marbles How many more marbles did Ed have than Doug then?",
+    "ground_truth": 21.0
+  },
+  {
+    "question": "Rebecca wants to split a collection of eggs into groups of 3. Rebecca has 99 bananas 9 eggs and 27 marbles. How many groups will be created?",
+    "ground_truth": 3.0
+  },
+  {
+    "question": "Dave had 21 apps on his phone. He added 89 new apps. After deleting some he had 24 left. How many more apps did he add than he deleted?",
+    "ground_truth": 3.0
+  },
+  {
+    "question": "Last week Fred had 47 dollars and Jason had 99 dollars. Over the weekend Fred delivered newspapers earning 111 dollars and washed cars earning 34 dollars. How much money does Fred have now?",
+    "ground_truth": 192.0
+  },
+  {
+    "question": "A farmer had 175 tomatoes and 77 potatoes in his garden. If he picked 172 potatoes How many tomatoes and potatoes does he have left?",
+    "ground_truth": 80.0
+  },
+  {
+    "question": "There are 11 baskets of peaches. Each basket has 10 red peaches and 18 green peaches. How many peaches are in the baskets altogether?",
+    "ground_truth": 308.0
+  },
+  {
+    "question": "Jerry had some action figures on a shelf in his room. Later he added 7 more action figures to the shelf. If there are a total of 10 action figures on his shelf now How many action figures did he have initially on the shelf?",
+    "ground_truth": 3.0
+  },
+  {
+    "question": "After Jessie started to go jogging everyday she lost 35 kilograms. She weighed 69 kilograms before beginning jogging. How much does she weigh now?",
+    "ground_truth": 34.0
+  },
+  {
+    "question": "In a school there are 635 girls and the rest are boys. If there are 510 more boys than girls How many boys are there in that school?",
+    "ground_truth": 1145.0
+  },
+  {
+    "question": "Danny collects bottle caps and wrappers. He found 65 wrappers and 5 bottle caps at the park. Now he has 31 bottle caps and 9 wrappers in his collection. How many more wrappers than bottle caps did danny find at the park?",
+    "ground_truth": 60.0
+  },
+  {
+    "question": "Dan has $ 4. He bought 99 candy bar for $ 3 each one costing the same amount of money. How much money is left?",
+    "ground_truth": 1.0
+  },
+  {
+    "question": "There are 4502 skittles in Steven's skittles collection. Steven also has 4276 erasers. If the skittles and erasers are organized into 154 groups How big is each group?",
+    "ground_truth": 57.0
+  },
+  {
+    "question": "The Razorback t-shirt shop made $ 51 dollars from selling 3 t-shirt during the Arkansas and Texas tech game they. What is the cost of each t-shirt?",
+    "ground_truth": 17.0
+  },
+  {
+    "question": "Brenda's mother made 14 cookies for 2 guests. If each of them had the same number of cookies How many did each of them have?",
+    "ground_truth": 7.0
+  },
+  {
+    "question": "If Lewis earns $ 1357 every week during the 223 weeks of a harvest season. How much money will he earn if he works for 73 harvest seasons?",
+    "ground_truth": 22090603.0
+  },
+  {
+    "question": "Paige raised 16 goldfish and 71 catfish in the pond but stray cats loved eating them. Now she has 2 left. How many goldfish disappeared?",
+    "ground_truth": 14.0
+  },
+  {
+    "question": "Paul had 95 pens and 153 books. After selling some books and pens in a garage sale he had 13 books and 23 pens left. How many books did he sell in the garage sale?",
+    "ground_truth": 140.0
+  },
+  {
+    "question": "An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?",
+    "ground_truth": 2.0
+  },
+  {
+    "question": "Nell collects baseball cards. She had 566 cards while Jeff had 234 cards. She gave some of her cards to Jeff and now has 535 cards left. How many cards does Jeff have now?",
+    "ground_truth": 265.0
+  },
+  {
+    "question": "Paige was helping her mom plant flowers and together they planted 45 seeds in 9 flowerbeds. If they put same number of seeds in each flower bed How many seeds did they plant in each flowerbed?",
+    "ground_truth": 5.0
+  },
+  {
+    "question": "In Haley's class some boys love to play marbles. If Haley has 10 marbles and she gave 5 marbles to each boy How many boys did she give the marbles to?",
+    "ground_truth": 2.0
+  },
+  {
+    "question": "Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?",
+    "ground_truth": 6.0
+  },
+  {
+    "question": "Ed had 29 more marbles than Doug. Ed lost 17 of his marbles at the playground. How many more marbles did Ed have than Doug then?",
+    "ground_truth": 12.0
+  },
+  {
+    "question": "There are 6 houses on a block. If a mailman has to give 24 pieces of junk mail to each block How many pieces of junk mail should he give in each house?",
+    "ground_truth": 4.0
+  },
+  {
+    "question": "There were 6 roses and 20 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 21 orchids and 22 roses in the vase. How many more roses than orchids are there in the vase now?",
+    "ground_truth": 1.0
+  },
+  {
+    "question": "He then went to see the oranges being harvested. He found out that they harvest 66 sacks per day and that each sack containes 25 oranges. How many oranges will they have after 87 days of harvest?",
+    "ground_truth": 143550.0
+  },
+  {
+    "question": "After resting they decided to go for a swim. The depth of the water is 9 times Dean's height. If Ron is 15 feet tall and Dean is 6 feet shorter than Ron How deep was the water?",
+    "ground_truth": 81.0
+  },
+  {
+    "question": "Ryan learns english and chinese for 7 days. Every day he spends 4 hours on learning english and 5 hours on learning chinese. How many hours does he spend on learning english and chinese in all?",
+    "ground_truth": 63.0
+  },
+  {
+    "question": "Next on his checklist is wax to stick the feathers together. If the feathers require 166 g of wax and right now he has 20 g How many more grams of wax does he need?",
+    "ground_truth": 146.0
+  },
+  {
+    "question": "Adam could fit 11 action figures on each shelf in his room. His room has 4 shelves and 40 cabinets. How many total action figures could his shelves hold?",
+    "ground_truth": 44.0
+  },
+  {
+    "question": "Frank was reading through some books. Each book had 249 pages and it took Frank 3 days to finish each book. How many pages did he read per day?",
+    "ground_truth": 83.0
+  },
+  {
+    "question": "During summer break 819058 kids from Lawrence county go to camp and the other 668278 kids stay home. How many more kids spent their summer break at the camp compared to those who stayed home?",
+    "ground_truth": 150780.0
+  },
+  {
+    "question": "The ring toss game at the carnival made 144 dollars per day. They were at the carnival for 22 days. How much money did they make?",
+    "ground_truth": 3168.0
+  },
+  {
+    "question": "Nell collects cards. She had 438 baseball cards and 18 Ace cards. She gave some of her cards to Jeff and now has 55 Ace cards and 178 baseball cards left. How many more baseball cards than Ace cards does Nell have?",
+    "ground_truth": 123.0
+  },
+  {
+    "question": "Katie had 62 new games and 80 old games. Her friends had 73 new games and 41 old games. How many old games do they have 3",
+    "ground_truth": 121.0
+  },
+  {
+    "question": "Rachel had to complete 5 pages of math homework and 2 pages of reading homework. How many more pages of math homework than reading homework did she have?",
+    "ground_truth": 3.0
+  },
+  {
+    "question": "Every day Ryan spends 6 hours on learning english and 5 hours on learning chinese. If he learns for 2 days How many hours does he spend on learning english in all?",
+    "ground_truth": 12.0
+  },
+  {
+    "question": "There are 20 different books in the ' crazy silly school ' series. If you are yet to read 5 of the books How many books have you already read?",
+    "ground_truth": 15.0
+  },
+  {
+    "question": "Jake has 13 fewer peaches and 3 more apples than Steven. Steven has 9 peaches and 8 apples. How many apples does Jake have?",
+    "ground_truth": 11.0
+  },
+  {
+    "question": "Randy uses 36 blocks to build a tower. If he had 59 blocks How many blocks are left?",
+    "ground_truth": 23.0
+  },
+  {
+    "question": "Because of the decision Sofia asked the students to suggest specific types of food. If 269 students suggested adding bacon 330 suggested adding mashed potatoes to the menu and 76 suggested adding tomatoes How many more students suggested mashed potatoes than those that suggested bacon?",
+    "ground_truth": 61.0
+  },
+  {
+    "question": "They decided to hold the party in their backyard. If they have 11 sets of tables and each set has 13 chairs How many chairs do they have in the backyard?",
+    "ground_truth": 143.0
+  },
+  {
+    "question": "Frank was reading through his favorite book. The book had 193 pages equally distributed over 15 chapters. It took Frank 660 days to finish the book. How many chapters did he read per day?",
+    "ground_truth": 44.0
+  },
+  {
+    "question": "2 children were riding on the bus. At the bus stop some more children got on the bus. Then there were 10 children altogether on the bus. How many more children are on the bus now than there were before the bus stop?",
+    "ground_truth": 8.0
+  },
+  {
+    "question": "Adam could fit 8 action figures and 10 cabinets on each shelf in his room. His room has 4 shelves. How many total items could his shelves hold?",
+    "ground_truth": 72.0
+  },
+  {
+    "question": "Winter is almost here and most animals are migrating to warmer countries. 86 bird families flew away for the winter from near a mountain. If there were 45 bird families living near the mountain initially How many more bird families flew away for the winter than those that stayed behind?",
+    "ground_truth": 127.0
+  },
+  {
+    "question": "Paul had 21 books. After selling some in a garage sale he bought 42 new ones. If he has 15 books now How many more books did he sell than he bought?",
+    "ground_truth": 6.0
+  },
+  {
+    "question": "Robin cut off 20 inches of his hair. If his hair is now 10 inches long How long was his hair before he cut?",
+    "ground_truth": 30.0
+  },
+  {
+    "question": "He then went to see the oranges being harvested. He found out that they harvest 74 sacks per day and discard 71 of them. How many sacks of oranges will they have after 51 days of harvest?",
+    "ground_truth": 153.0
+  },
+  {
+    "question": "Julia played tag with 14 kids on monday, 2 kids on tuesday and 8 kids on wednesday. How many more kids did she play with on monday than on wednesday?",
+    "ground_truth": 6.0
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "eq_number": {
+    "correct": 31,
+    "total": 100,
+    "accuracy": 0.31
+  },
+  "boxed": {
+    "correct": 92,
+    "total": 100,
+    "accuracy": 0.92
+  },
+  "fixed": {
+    "correct": 93,
+    "total": 100,
+    "accuracy": 0.93
+  },
+  "last_number": {
+    "correct": 91,
+    "total": 100,
+    "accuracy": 0.91
+  },
+  "finance_aware": {
+    "correct": 92,
+    "total": 100,
+    "accuracy": 0.92
+  }
+}

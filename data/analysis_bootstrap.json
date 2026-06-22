@@ -1,0 +1,139 @@
+{
+  "description": "Bootstrap CIs for Res-A and Res-B",
+  "n_bootstrap": 10000,
+  "results": {
+    "finqa_1.7b": {
+      "benchmark": "finqa",
+      "model": "1.7b",
+      "n": 96,
+      "resA": {
+        "point": 0.1,
+        "ci95": [
+          0.0,
+          0.2
+        ]
+      },
+      "resB": {
+        "point": 0.0,
+        "ci95": [
+          0.0,
+          0.1
+        ]
+      }
+    },
+    "finqa_30b": {
+      "benchmark": "finqa",
+      "model": "30b",
+      "n": 96,
+      "resA": {
+        "point": 0.4,
+        "ci95": [
+          0.3,
+          0.5
+        ]
+      },
+      "resB": {
+        "point": 0.2,
+        "ci95": [
+          0.1,
+          0.3
+        ]
+      }
+    },
+    "finqa_8b": {
+      "benchmark": "finqa",
+      "model": "8b",
+      "n": 96,
+      "resA": {
+        "point": 0.3,
+        "ci95": [
+          0.2,
+          0.4
+        ]
+      },
+      "resB": {
+        "point": 0.2,
+        "ci95": [
+          0.1,
+          0.3
+        ]
+      }
+    },
+    "finqa_glm": {
+      "benchmark": "finqa",
+      "model": "glm",
+      "n": 96,
+      "resA": {
+        "point": 0.5,
+        "ci95": [
+          0.4,
+          0.6
+        ]
+      },
+      "resB": {
+        "point": 0.1,
+        "ci95": [
+          0.0,
+          0.1
+        ]
+      }
+    },
+    "gsm8k_1.7b": {
+      "benchmark": "gsm8k",
+      "model": "1.7b",
+      "n": 100,
+      "resA": {
+        "point": 0.1,
+        "ci95": [
+          0.0,
+          0.1
+        ]
+      },
+      "resB": {
+        "point": 0.1,
+        "ci95": [
+          0.0,
+          0.1
+        ]
+      }
+    },
+    "gsm8k_30b": {
+      "benchmark": "gsm8k",
+      "model": "30b",
+      "n": 100,
+      "resA": {
+        "point": 0.2,
+        "ci95": [
+          0.1,
+          0.2
+        ]
+      },
+      "resB": {
+        "point": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "gsm8k_8b": {
+      "benchmark": "gsm8k",
+      "model": "8b",
+      "n": 100,
+      "resA": {
+        "point": 0.0,
+        "ci95": [
+          0.0,
+          0.1
+        ]
+      },
+      "resB": {
+        "point": 0.0,
+        "ci95": [
+          0.0,
+          0.1
+        ]
+      }
+    }
+  }
+}

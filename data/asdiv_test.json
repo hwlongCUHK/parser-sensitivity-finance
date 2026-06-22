@@ -1,0 +1,402 @@
+[
+  {
+    "question": "Kevin collected toys to use as prizes at the fair. He collected 14 stuffed animals. He also collected 18 frisbees and several yo-yos. Kevin has 50 prizes in all. How many yo-yos did Kevin collect?",
+    "ground_truth": 18.0
+  },
+  {
+    "question": "Thrice the sum of a number and 2 equals 24 added with the same number. Write algebraic equation and find the number.",
+    "ground_truth": 9.0
+  },
+  {
+    "question": "A bakery cookie sheet was 10 inches wide and 2 inches long. What is the perimeter of their cookie sheet?",
+    "ground_truth": 24.0
+  },
+  {
+    "question": "Cody was helping his mom wash clothes. They washed 4 short sleeve shirts and 5 long sleeve shirts. How many shirts did they wash total?",
+    "ground_truth": 9.0
+  },
+  {
+    "question": "A man is thrice as old as his son. After 12 years, he will be twice as old as his son. Find their present ages.",
+    "ground_truth": 36.0
+  },
+  {
+    "question": "There was 1,050 ml of tea in a pot. Anna poured the tea into some cups. If there were 65 ml of tea in each cup, how much tea was left in the pot?",
+    "ground_truth": 10.0
+  },
+  {
+    "question": "The Sweet Shop gets a new candy shipment every 35 days. There are 25 cases of chocolate bars. There are 55 cases of lollipops. How many cases of candy altogether?",
+    "ground_truth": 80.0
+  },
+  {
+    "question": "Megan and her sister, Tara, wanted to buy a scooter for $26. Tara had $4 more than Megan. Together they had enough money to buy the scooter. How much money did Tara have?",
+    "ground_truth": 15.0
+  },
+  {
+    "question": "A recipe for fruit punch says to use 8 ounces of orange juice for every 3 ounces of grape juice. Nicky used 72 ounces of orange juice. How many fewer ounces of grape juice were used?",
+    "ground_truth": 45.0
+  },
+  {
+    "question": "If Carl has a total of 89 stamps and Kevin has 57, how many more stamps does Carl have more than Kevin?",
+    "ground_truth": 32.0
+  },
+  {
+    "question": "Collin baked 9 brownies with nuts on top and 34 brownies without nuts. What is the ratio of the number of brownies with nuts on top to the total number of brownies?",
+    "ground_truth": 9.0
+  },
+  {
+    "question": "A certain number added twice to itself equals 96. What is the number?",
+    "ground_truth": 32.0
+  },
+  {
+    "question": "Ellen has six more balls than Marin. Marin has nine balls. How many balls does Ellen have?",
+    "ground_truth": 15.0
+  },
+  {
+    "question": "Jake has 34 fewer balls than Audrey. Audrey has 41 balls. How many balls does Jake have?",
+    "ground_truth": 7.0
+  },
+  {
+    "question": "Mrs. Hilt wants to buy a television that regularly costs $600. If the sale price is 20% off the regular price, what was the sale price?",
+    "ground_truth": 480.0
+  },
+  {
+    "question": "Peter has 54 tickets and 4 pencils. If he shares the tickets among 9 friends, how many tickets does each friend get?",
+    "ground_truth": 6.0
+  },
+  {
+    "question": "The difference between two numbers is 26 and greater number is three times the smaller. Find the numbers.",
+    "ground_truth": 13.0
+  },
+  {
+    "question": "There are 757 pounds of sand to be filled into bags. If each bag has a capacity of 65 pounds, how many pounds of sand are there in the bag that is not full?",
+    "ground_truth": 42.0
+  },
+  {
+    "question": "There are 22 dogs in the farm. They live in 5 dog-houses equally. How many dogs are left?",
+    "ground_truth": 2.0
+  },
+  {
+    "question": "For breakfast, Colton bought a muffin for $1.80 and a cup of coffee for $1.40. For lunch, Colton had soup, a salad, and lemonade. The soup cost $2.75, the salad cost $6.70, and the lemonade cost $1.70. How much more money did Colton spend on lunch than on breakfast?",
+    "ground_truth": 7.95
+  },
+  {
+    "question": "Sam and Erica have $91 together. Sam has $38. How does Erica have?",
+    "ground_truth": 53.0
+  },
+  {
+    "question": "Larry's Lawn Care charges nine bucks to trim a hedge. If Henry has three hedges, how much money would he spend?",
+    "ground_truth": 27.0
+  },
+  {
+    "question": "Jerry had eleven cherries. He ate eight of them. How many cherries does Jerry have left? ",
+    "ground_truth": 3.0
+  },
+  {
+    "question": "Lizzie lives in a very big and polluted city. Being an advocate for the environment, she organized a cleanup drive to help reduce the pollution. They started by cleaning the rivers that flow through and around the city. If her group was able to collect 387 pounds of garbage and another group gathered 39 pounds less than Lizzie's group, how much garbage were the two groups able to gather?",
+    "ground_truth": 735.0
+  },
+  {
+    "question": "At the arcade Dave spent forty-three tickets on stuffed tiger. Then he had fifty-five left. How many tickets did Dave have to start with? ",
+    "ground_truth": 98.0
+  },
+  {
+    "question": "A vat of orange juice was one hundred fifty-three pints. If you wanted to pour the vat into five glasses with the same amount in each glass, how many pints would be in each glass?",
+    "ground_truth": 30.0
+  },
+  {
+    "question": "Laurie has 12 more marbles than Kurt. Kurt has 45 marbles less than Dennis. Dennis has 70 marbles. How many marbles does Laurie have?",
+    "ground_truth": 37.0
+  },
+  {
+    "question": "During a sale, a shoe store sold 2 pairs of sneakers, 4 pairs of sandals and 11 pairs of boots. How many pairs of shoes did the store sell? ",
+    "ground_truth": 17.0
+  },
+  {
+    "question": "Lastly, she donated $800.00 to three different soup kitchens in her town. If she gave $300.00 to the first soup kitchen and $238.00 to the second, how much did she donate to the third?",
+    "ground_truth": 262.0
+  },
+  {
+    "question": "At a bake sale there were 42 raisin cookies sold. If the ratio of raisin cookies sold to oatmeal cookies sold was 6:1, what is the combined amount of raisin and oatmeal cookies sold?",
+    "ground_truth": 49.0
+  },
+  {
+    "question": "Georgia had 24 yellow buttons, 16 black buttons and 19 green buttons. She gave some of the buttons to Mary and now Georgia has 13 buttons left. How many buttons did Georgia give Mary?",
+    "ground_truth": 46.0
+  },
+  {
+    "question": "A museum had ninety-eight paintings. After they got rid of some, they had ninety-five left. How many paintings did they get rid of? ",
+    "ground_truth": 3.0
+  },
+  {
+    "question": "Mrs. Wilson, the math teacher, has 18 logic puzzles and 9 visual puzzles that she wants to group into sets for students who finish their tests early. Mrs. Wilson wants each set to be identical, containing the same combination of logic puzzles and visual puzzles, with no puzzles left over. What is the greatest number of sets she can create?",
+    "ground_truth": 9.0
+  },
+  {
+    "question": "For the roof, John would need 2 sets of metal bars for support. If each set has 7 metal bars, how many metal bars are there in all?",
+    "ground_truth": 14.0
+  },
+  {
+    "question": "Lucy put sixty-eight shells in her bucket. She found some more shells and now she has eighty-nine shells. How many more did she find?",
+    "ground_truth": 21.0
+  },
+  {
+    "question": "Both of them were also asked to take note of the total number of chicken in the farm. Ben counted a total of 9 chicken coops and Daniel said that there are 60 chickens in one coop. How many chickens do they have in total?",
+    "ground_truth": 540.0
+  },
+  {
+    "question": "During a race Gwen jogged for 15 minutes. If the ratio of time she jogged to time she walked was 5:3, how many minutes did Gwen walk?",
+    "ground_truth": 9.0
+  },
+  {
+    "question": "Students at Memorial School voted for their favorite snack. For every 5 students that voted for candy, 2 students voted for popcorn. There were a total of 45 votes for candy. How many fewer students voted for popcorn than candy?",
+    "ground_truth": 27.0
+  },
+  {
+    "question": "A sofa and a love seat together costs $444. The sofa costs double the love seat. How much do they each cost?",
+    "ground_truth": 148.0
+  },
+  {
+    "question": "A square has a perimeter of 24 inches. What is the area of the square?",
+    "ground_truth": 36.0
+  },
+  {
+    "question": "There were 10 students riding on the school bus. At the first stop, 3 students got off of the bus. How many students are left on the bus?",
+    "ground_truth": 7.0
+  },
+  {
+    "question": "Brenda's mother made cookies for five. If she prepared 35 cookies and each of them had the same number of cookies, how many did each of them have?",
+    "ground_truth": 7.0
+  },
+  {
+    "question": "At a farming supply store 2 pounds of seed cost $44.68. If a farmer needed 6 pounds of seeds, how much would it cost him?",
+    "ground_truth": 134.04
+  },
+  {
+    "question": "Roger mowed his lawn 15 times total during the spring and summer. If he mowed it 9 times in the summer. How many times did he mow in the spring?",
+    "ground_truth": 6.0
+  },
+  {
+    "question": "At a restaurant the ratio of kids meals sold to adult meals sold was 2:1. If there were 8 kids meals sold, what is the combined amount of kids and adult meals sold?",
+    "ground_truth": 12.0
+  },
+  {
+    "question": "Bryan had 8 precious stones in his collection which he sold to his friend from the jewelry store. If the stones were sold at $1785.00 each, how much money did Bryan get in total?",
+    "ground_truth": 14280.0
+  },
+  {
+    "question": "There's only a week left before Christmas. John went out to buy gifts for his family. Having $999.00 for his budget, he went to a sports store and bought his brother a new pair of shoes for $165.00. How much money does he have left?",
+    "ground_truth": 834.0
+  },
+  {
+    "question": "A train covered a certain distance at a uniform speed. If the train would have been 6 km/hr faster it would have 8 hours less than the scheduled time, and if the train were slower by 6 km/hr,it would have taken 12 hours more than the scheduled time. Find the length of the journey.",
+    "ground_truth": 1440.0
+  },
+  {
+    "question": "The total cost for tuition plus room and board at State University is $2,584. Tuition costs $704 more than room and board. What is the tuition fee?",
+    "ground_truth": 1644.0
+  },
+  {
+    "question": "Paul made forty-four dollars mowing lawns and twenty-eight dollars weed eating. If he only spent nine dollar a week, how long would the money last him?",
+    "ground_truth": 8.0
+  },
+  {
+    "question": "For a new year's party 2 red balloons, 12 green balloons and 6 white balloons were used. What is the total number of balloons used? ",
+    "ground_truth": 20.0
+  },
+  {
+    "question": "Li Na is going to plant 63 tomato plants and 81 rhubarb plants. Li Na would like to plant the plants in rows where each row has the same number of tomato plants and each row has the same number of rhubarb plants. What is the greatest number of rows Li Na can plant?",
+    "ground_truth": 9.0
+  },
+  {
+    "question": "A restaurant added a new outdoor section that was 4 feet wide and 6 feet long. What is the area of their new outdoor section?",
+    "ground_truth": 24.0
+  },
+  {
+    "question": "Each house a carpenter builds needs six sinks. If he bought two hundred sixty-six sinks, how many houses would that cover?",
+    "ground_truth": 44.0
+  },
+  {
+    "question": "Alex had some candles for his Jack O'Lanterns. He used 32 of them. Now he has 12 left. How many candles did Alex have to start with?",
+    "ground_truth": 44.0
+  },
+  {
+    "question": "After eating a hearty meal, they went to see the Buckingham Palace. There, Rachel learned that 583 visitors came to the palace that day. If there were 246 visitors the previous day, how many visited the palace within 2 days?",
+    "ground_truth": 829.0
+  },
+  {
+    "question": "If you had 37 bags of cookies with 19 cookies in each bag, how many cookies would you have?",
+    "ground_truth": 703.0
+  },
+  {
+    "question": "Every day, Ryan spends 4 hours on learning English and 3 hours on learning Chinese. How many hours does he spend on learning English and Chinese in all?",
+    "ground_truth": 7.0
+  },
+  {
+    "question": "Christmas is near. Mr. Anderson, president of Nice People Inc. organized a charity event to share happiness to the less fortunate people. The first thing that he did is to visit an orphanage. There he dressed up as Santa and gave toys to the children. If he gave 134 toy cars to the boys and 269 dolls to the girls, how many toys did he give to all?",
+    "ground_truth": 403.0
+  },
+  {
+    "question": "Mrs. Hilt bought 2 pizzas. Each pizza had 8 slices. How many total slices of pizza did she have?",
+    "ground_truth": 16.0
+  },
+  {
+    "question": "Susan started her homework at 1:59 p.m. and finished her homework 96 minutes later. Susan had volleyball practice at 4:00 p.m. How much time did Susan have between finishing her homework and the beginning of volleyball practice?",
+    "ground_truth": 25.0
+  },
+  {
+    "question": "A farm was 7 miles wide and 8 miles long. What is the area of the farm?",
+    "ground_truth": 56.0
+  },
+  {
+    "question": "Sarah's Shipping and Ryan's Mail Services both ship packages. Sarah's trucks will only carry loads of 18 packages. In contrast, Ryan's trucks will only carry loads of 11 packages. If both businesses ended up shipping the same number of packages this morning, what is the minimum number of packages each must have shipped? ",
+    "ground_truth": 198.0
+  },
+  {
+    "question": "A carpenter had a board that was 5.28 m long. She used her circular saw to cut 9 cm off the end of the board. How many centimeters long was the board after the carpenter cut it?",
+    "ground_truth": 519.0
+  },
+  {
+    "question": "For a party Janet bought some cupcakes. She bought 2 chocolate, 13 vanilla and 2 strawberry. How many cupcakes did she buy? ",
+    "ground_truth": 17.0
+  },
+  {
+    "question": "A boat goes 30 km upstream and 44 km downstream in 10 hours. In 13 hours, it can go 40 km upstream and 55 km downstream. Determine the speed of the stream and that of boat in still water.",
+    "ground_truth": 8.0
+  },
+  {
+    "question": "A gas station sold 2 boxes of chocolate candy, 5 boxes of sugar candy and 2 boxes of gum. What is the total number of boxes they sold? ",
+    "ground_truth": 9.0
+  },
+  {
+    "question": "A pet store sold 12 siamese cats. If the ratio of siamese cats to house cats sold was 2:1, what is the combined amount of cats sold?",
+    "ground_truth": 18.0
+  },
+  {
+    "question": "Nancy had forty-three files on her computer. She deleted thirty-one of them and put the rest into folders with six files in each one. How many folders did Nancy end up with?",
+    "ground_truth": 2.0
+  },
+  {
+    "question": "Math Magazine charges $8 per square inch for advertising. Jason decides to order a half page ad. Each page of the magazine measures 9 inches by 12 inches. How much will Jason have to pay?",
+    "ground_truth": 432.0
+  },
+  {
+    "question": "Fabric is sold in stores from bolts that are 45 or 60 inches wide. What is the width of the widest strips of fabric you can cut from either bolt without wasting any of the fabric if each strip has the same width?",
+    "ground_truth": 15.0
+  },
+  {
+    "question": "A video uploaded had 18 'up votes'. If the ratio of 'up votes' to 'down votes' was 9:2, how many 'down votes' did the video get?",
+    "ground_truth": 4.0
+  },
+  {
+    "question": "The sum of three consecutive even numbers is 42. Choose suitable variable and create single variable algebraic equations and find the difference between the greatest and smallest number.",
+    "ground_truth": 4.0
+  },
+  {
+    "question": "George bought 17 pieces of candy to give to 5 of his friends. If he wants to give each friend the same amount, how many pieces would he have left over?",
+    "ground_truth": 2.0
+  },
+  {
+    "question": "A store has forty-nine shirts. After selling some there were twenty-eight left. How many did they sell? ",
+    "ground_truth": 21.0
+  },
+  {
+    "question": "Three carpenters are installing some doors for a building. Carpenter A installs a door every 40 min, Carpenter B installs a door every 1 h 20 min and Carpenter C installs a door every 1 h 40 min. If they start installing three doors at the same time at 9:15, at what time will they install doors at the same again?",
+    "ground_truth": 15.0
+  },
+  {
+    "question": "A chef used five potatoes to make fries for the lunch crowd. Later he used another two potatoes for the dinner crowd. How many potatoes did he use total?",
+    "ground_truth": 7.0
+  },
+  {
+    "question": "Mrs. Hilt bought a pencil for 17 cents. She used exactly minimized coins to buy the pencil. How many coins did she use?",
+    "ground_truth": 4.0
+  },
+  {
+    "question": "A delivery driver had to make three more stops on his route. At each stop he had to drop off nine boxes. How many boxes does he have?",
+    "ground_truth": 27.0
+  },
+  {
+    "question": "Ezra is buying nuts and bolts at a local hardware store. The store sells nuts in packs of 13 and bolts in packs of 8. If Ezra wishes to buy the same number of nuts and bolts, what is the smallest number of nuts that he can buy?",
+    "ground_truth": 104.0
+  },
+  {
+    "question": "Mrs. Hilt saw 2 dogs and 2 chickens. How many animal legs did she see?",
+    "ground_truth": 12.0
+  },
+  {
+    "question": "Nancy bought a soft drink for 4 dollars and 6 candy bars. She spent a total of 28 dollars. How much did each candy bar cost ?",
+    "ground_truth": 4.0
+  },
+  {
+    "question": "At the fair Kaleb bought 6 tickets. After riding the ferris wheel he had 3 tickets left. If each ticket cost 9 dollars, how much money did Kaleb spend riding the ferris wheel?",
+    "ground_truth": 27.0
+  },
+  {
+    "question": "Laura has 28 blocks and 8 cards. If she shares the blocks among 4 friends, how many blocks does each friend get?",
+    "ground_truth": 7.0
+  },
+  {
+    "question": "Next on his list is the nursing home near his office. There he 472 boxes of vitamins and 288 boxes of supplements. How many boxes of medicine did the nursing home receive from Mr. Anderson?",
+    "ground_truth": 760.0
+  },
+  {
+    "question": "The ratio of white chocolate to dark chocolate sold at a candy shop was 4:3. If there were 20 bars of white chocolate sold, how many bars of dark chocolate were sold?",
+    "ground_truth": 15.0
+  },
+  {
+    "question": "Katie had twelve pencils in her desk and three more in her backpack. How many did she have total?",
+    "ground_truth": 15.0
+  },
+  {
+    "question": "Wendy's brother had 6 pieces of candy. Wendy had 2 boxes with 3 pieces each. How many pieces did they have total?",
+    "ground_truth": 12.0
+  },
+  {
+    "question": "There are some children at a bakery. As they were deciding what to buy, 24 girls came in and 31 boys left. If there are 78 children in the bakery in the end, how many children were there at first?",
+    "ground_truth": 85.0
+  },
+  {
+    "question": "He also made some juice from fresh oranges. If he used 2 oranges per glass of juice and he made 6 glasses of juice, how many oranges did he use?",
+    "ground_truth": 12.0
+  },
+  {
+    "question": "29 birds were sitting in a tree. Some more fly up to the tree. Then there were 42 birds in the tree. How many more flew up to the tree?",
+    "ground_truth": 13.0
+  },
+  {
+    "question": "Sean has 223 whistles. He has 95 more whistles that Charles. How many whistles does Charles have?",
+    "ground_truth": 128.0
+  },
+  {
+    "question": "A store sold eight cold drinks and three hot drinks. How many drinks did they sell total?",
+    "ground_truth": 11.0
+  },
+  {
+    "question": "A garden has 52 rows and 15 columns of bean plants. How many plants are there in all?",
+    "ground_truth": 780.0
+  },
+  {
+    "question": "A group of 4 friends were playing video games. Later 3 more friends came over. How many people were there total?",
+    "ground_truth": 7.0
+  },
+  {
+    "question": "While playing a game Sam had ninety-two points. If he scored another three points, how many points would he have total?",
+    "ground_truth": 95.0
+  },
+  {
+    "question": "Jacob's Pizzeria made 3 thin-crust pizzas and 14 thick-crust pizzas. What is the ratio of the number of thin-crust pizzas to the number of thick-crust pizzas?",
+    "ground_truth": 3.0
+  },
+  {
+    "question": "Whitney has collected 4 T-shirts and 20 buttons from her favorite band. She wants to combine them into identical sets to sell, with no pieces left over. What is the greatest number of sets Whitney can make?",
+    "ground_truth": 4.0
+  },
+  {
+    "question": "After the party, Kevin estimated that the total money they spent on food, drinks, and utensils sums up to $560.00. If they spent $268.00 on food and $118.00 on utensils and other stuff, how much did they spend on drinks?",
+    "ground_truth": 174.0
+  },
+  {
+    "question": "For Gwen's birthday she received five dollars. If she spent three dollars. How much money did she still have?",
+    "ground_truth": 2.0
+  }
+]

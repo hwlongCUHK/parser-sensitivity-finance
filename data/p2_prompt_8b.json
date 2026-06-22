@@ -1,0 +1,17 @@
+{
+  "standard": {
+    "n": 30,
+    "correct": 20,
+    "truncated": 4
+  },
+  "boxed": {
+    "n": 30,
+    "correct": 19,
+    "truncated": 3
+  },
+  "lastline": {
+    "n": 30,
+    "correct": 22,
+    "truncated": 2
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "description": "DeepSeek-audited taxonomy of Res-B disagreement cases on FinQA 8B",
+  "n_cases": 23,
+  "category_counts": {
+    "model_wrong": 6,
+    "multi_step": 8,
+    "gold": 6,
+    "sign": 3
+  },
+  "cases": [
+    {
+      "category": "model_wrong",
+      "explanation": "The model response is truncated and incomplete, failing to provide the correct percentage, so the correct extraction by last_number is coincidental rather than reliable.",
+      "idx": 0,
+      "question": "for the quarter ended 12/29/2018 what was the percent of the total shares bought"
+    },
+    {
+      "category": "multi_step",
+      "explanation": "The model response shows a multi-step reasoning process (listing values for each year before computing variation), and the finance_aware parser likely extracted an intermediate value (e.g., 124) instead of the final computed variation (24), causing disagreement.",
+      "idx": 8,
+      "question": "considering the years 2011-2012 , what is the variation observed in the lease ob"
+    },
+    {
+      "category": "multi_step",
+      "explanation": "The model response contains intermediate reasoning steps (e.g., 'First, I need to look at the table...'), and the parsers disagree on whether to extract the final answer or a middle step value.",
+      "idx": 9,
+      "question": "what was the average weighted average common shares outstanding for diluted comp"
+    },
+    {
+      "category": "gold",
+      "explanation": "The gold answer is -3.4%, but the model response contains the raw numbers (e.g., 2012 value) rather than the computed percentage change, so the finance_aware parser correctly extracts a number but fails to match the gold format.",
+      "idx": 10,
+      "question": "what was the percent of the change in weighted average common shares outstanding"
+    },
+    {
+      "category": "model_wrong",
+      "explanation": "The model response is truncated and incomplete, so the correct answer cannot be extracted; the last_number parser happened to match the gold answer by chance.",
+      "idx": 18,
+      "question": "by what percent did the balance of tax benefits increase between the beginning o"
+    },
+    {
+      "category": "model_wrong",
+      "explanation": "The model's response is truncated and incomplete, failing to provide the actual numerical answer, so the correct extraction by last_number is coincidental rather than reliable.",
+      "idx": 21,
+      "question": "for restructuring expense , what is the total balance of severance and related c"
+    },
+    {
+      "category": "multi_step",
+      "explanation": "The model response shows a multi-step reasoning process where it first identifies the goodwill value ($4) but gets cut off, and the parsers disagree because one extracts the intermediate value while others extract the final answer.",
+      "idx": 24,
+      "question": "what percentage of total net assets acquired were goodwill?"
+    },
+    {
+      "category": "multi_step",
+      "explanation": "The model response truncates mid-sentence, showing a multi-step calculation where the final percentage (5.54%) is not fully extracted, causing parsers to disagree on whether to capture the intermediate or final value.",
+      "idx": 25,
+      "question": "in 2018 what was the percent of the cib markets net interest income as part of t"
+    },
+    {
+      "category": "multi_step",
+      "explanation": "The parsers disagree because the model response is truncated mid-sentence, so some parsers may extract the first number (2011 value) while others extract the final computed percentage change (41.4%), leading to ambiguity between intermediate and final steps.",
+      "idx": 29,
+      "question": "what was the percentage change in the additions charged to expense from 2011 to "
+    },
+    {
+      "category": "gold",
+      "explanation": "The gold answer '46.4' is the net change (426.6 - 380.2), but the finance_aware parser likely extracted a raw revenue figure from the model response instead of the computed difference, causing disagreement with the other parsers that correctly extracted the change.",
+      "idx": 32,
+      "question": "what is the net change in net revenue entergy mississippi , inc . during 2003?"
+    },
+    {
+      "category": "gold",
+      "explanation": "The gold answer 704.25 is the average of 705.4 and 703.1, but the finance_aware parser likely extracted one of the individual yearly values instead of the average, causing disagreement.",
+      "idx": 48,
+      "question": "what was the average net revenue between 2016 and 2017 in millions"
+    },
+    {
+      "category": "sign",
+      "explanation": "The gold answer is -1.9, but the finance_aware parser likely extracted a positive value or failed to capture the negative sign from the model response.",
+      "idx": 51,
+      "question": "what was the change in millions of the weighted average common shares outstandin"
+    },
+    {
+      "category": "multi_step",
+      "explanation": "The model output contains intermediate reasoning steps (like listing different obligation types) rather than directly providing the final percentage answer, causing parsers to disagree on which extracted number is the intended final answer.",
+      "idx": 52,
+      "question": "what percentage of the total expected cash outflow to satisfy contractual obliga"
+    },
+    {
+      "category": "sign",
+      "explanation": "The gold answer is -2.9%, but the fixed and finance_aware parsers likely missed the negative sign, while last_number correctly extracted the negative percentage.",
+      "idx": 53,
+      "question": "what is the percentage change in net revenue from 2010 to 2011?"
+    },
+    {
+      "category": "sign",
+      "explanation": "The gold answer is -9.7%, but the fixed and finance_aware parsers likely failed to capture the negative sign from the percentage change calculation, while last_number correctly extracted the negative value.",
+      "idx": 55,
+      "question": "what is the percentage change in inventory balance in 2014?"
+    },
+    {
+      "category": "gold",
+      "explanation": "The gold answer is a percentage (65.3%), but the fixed parser likely failed because it expected a raw number or different format, while the other parsers correctly extracted the value.",
+      "idx": 56,
+      "question": "as of december 312013 what was the percent of labor-related deemed claim as part"
+    },
+    {
+      "category": "gold",
+      "explanation": "The gold answer is -25%, but the fixed parser likely extracted the raw numbers (e.g., 24,296 and 18,178) and computed a different percentage, causing a false negative despite the model output being correct.",
+      "idx": 62,
+      "question": "what was the percentage change in collateral posted from 2012 to 2013?"
+    },
+    {
+      "category": "model_wrong",
+      "explanation": "The model response is truncated and incomplete, so the correct Tier 1 capital amount is not fully extracted, but the last_number and finance_aware parsers likely matched the gold answer by chance from the visible partial text.",
+      "idx": 63,
+      "question": "in millions for 2012 and 2011 , what was the largest tier 1 capital amount?\\\\n"
+    },
+    {
+      "category": "gold",
+      "explanation": "The gold answer is a percentage (52.04%), but the model response discusses a table with years and amounts, so the correct extraction likely yields a number that matches the gold, but the gold format (percentage) causes false negatives for parsers expecting raw numbers.",
+      "idx": 64,
+      "question": "what percent of the commitments are due after 2019?"
+    },
+    {
+      "category": "model_wrong",
+      "explanation": "The model response is incomplete and incorrect, but the last_number and finance_aware parsers both correctly extracted 75.8% from the truncated output, while the fixed parser failed due to the model's wrong answer.",
+      "idx": 65,
+      "question": "as of december 2007 what was the percent of the square footage in alpharetta geo"
+    },
+    {
+      "category": "multi_step",
+      "explanation": "The model response is truncated mid-sentence, showing an intermediate step (listing a value of $2) rather than the final extracted number, causing parsers to disagree on which value to extract.",
+      "idx": 69,
+      "question": "in millions for 2013 and 2012 , what was the minimum collateral posted?"
+    },
+    {
+      "category": "model_wrong",
+      "explanation": "The model's response shows a calculation error (20963 to 7327 is not -65.1%), so the correct parsers happened to extract the right answer from a wrong reasoning, while the fixed parser failed.",
+      "idx": 73,
+      "question": "in 2006 what was percentage change in the employee separations liabilities"
+    },
+    {
+      "category": "multi_step",
+      "explanation": "The model response truncates mid-sentence, suggesting it was computing a multi-step calculation (growth rate from 2012 to 2013) but only extracted the raw operating expense value, causing parsers to disagree on whether the final answer was captured.",
+      "idx": 77,
+      "question": "what is the growth rate in operating expenses in 2013?"
+    }
+  ]
+}

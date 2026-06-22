@@ -1,0 +1,166 @@
+{
+  "description": "Cross-parser agreement analysis",
+  "results": {
+    "finqa_1.7b": {
+      "benchmark": "finqa",
+      "model": "1.7b",
+      "n": 96,
+      "pairwise_agreement": {
+        "eq_number vs boxed": 76.0,
+        "eq_number vs fixed": 77.1,
+        "eq_number vs last_number": 72.9,
+        "eq_number vs finance_aware": 69.8,
+        "boxed vs fixed": 94.8,
+        "boxed vs last_number": 88.5,
+        "boxed vs finance_aware": 93.8,
+        "fixed vs last_number": 91.7,
+        "fixed vs finance_aware": 92.7,
+        "last_number vs finance_aware": 94.8,
+        "eq_number agrees with majority": 76.0,
+        "boxed agrees with majority": 95.8,
+        "fixed agrees with majority": 99.0,
+        "last_number agrees with majority": 92.7,
+        "finance_aware agrees with majority": 93.8
+      },
+      "all_parsers_agree": 68.8
+    },
+    "finqa_30b": {
+      "benchmark": "finqa",
+      "model": "30b",
+      "n": 96,
+      "pairwise_agreement": {
+        "eq_number vs boxed": 80.2,
+        "eq_number vs fixed": 81.2,
+        "eq_number vs last_number": 59.4,
+        "eq_number vs finance_aware": 64.6,
+        "boxed vs fixed": 82.3,
+        "boxed vs last_number": 60.4,
+        "boxed vs finance_aware": 78.1,
+        "fixed vs last_number": 76.0,
+        "fixed vs finance_aware": 83.3,
+        "last_number vs finance_aware": 82.3,
+        "eq_number agrees with majority": 80.2,
+        "boxed agrees with majority": 83.3,
+        "fixed agrees with majority": 99.0,
+        "last_number agrees with majority": 77.1,
+        "finance_aware agrees with majority": 84.4
+      },
+      "all_parsers_agree": 50.0
+    },
+    "finqa_8b": {
+      "benchmark": "finqa",
+      "model": "8b",
+      "n": 96,
+      "pairwise_agreement": {
+        "eq_number vs boxed": 80.2,
+        "eq_number vs fixed": 84.4,
+        "eq_number vs last_number": 64.6,
+        "eq_number vs finance_aware": 72.9,
+        "boxed vs fixed": 87.5,
+        "boxed vs last_number": 67.7,
+        "boxed vs finance_aware": 84.4,
+        "fixed vs last_number": 80.2,
+        "fixed vs finance_aware": 88.5,
+        "last_number vs finance_aware": 83.3,
+        "eq_number agrees with majority": 84.4,
+        "boxed agrees with majority": 87.5,
+        "fixed agrees with majority": 100.0,
+        "last_number agrees with majority": 80.2,
+        "finance_aware agrees with majority": 88.5
+      },
+      "all_parsers_agree": 56.2
+    },
+    "finqa_glm": {
+      "benchmark": "finqa",
+      "model": "glm",
+      "n": 96,
+      "pairwise_agreement": {
+        "eq_number vs boxed": 90.6,
+        "eq_number vs fixed": 68.8,
+        "eq_number vs last_number": 58.3,
+        "eq_number vs finance_aware": 65.6,
+        "boxed vs fixed": 59.4,
+        "boxed vs last_number": 51.0,
+        "boxed vs finance_aware": 58.3,
+        "fixed vs last_number": 89.6,
+        "fixed vs finance_aware": 92.7,
+        "last_number vs finance_aware": 92.7,
+        "eq_number agrees with majority": 69.8,
+        "boxed agrees with majority": 62.5,
+        "fixed agrees with majority": 96.9,
+        "last_number agrees with majority": 88.5,
+        "finance_aware agrees with majority": 95.8
+      },
+      "all_parsers_agree": 50.0
+    },
+    "gsm8k_1.7b": {
+      "benchmark": "gsm8k",
+      "model": "1.7b",
+      "n": 100,
+      "pairwise_agreement": {
+        "eq_number vs boxed": 29.0,
+        "eq_number vs fixed": 28.0,
+        "eq_number vs last_number": 30.0,
+        "eq_number vs finance_aware": 23.0,
+        "boxed vs fixed": 99.0,
+        "boxed vs last_number": 99.0,
+        "boxed vs finance_aware": 94.0,
+        "fixed vs last_number": 98.0,
+        "fixed vs finance_aware": 95.0,
+        "last_number vs finance_aware": 93.0,
+        "eq_number agrees with majority": 29.0,
+        "boxed agrees with majority": 100.0,
+        "fixed agrees with majority": 99.0,
+        "last_number agrees with majority": 99.0,
+        "finance_aware agrees with majority": 94.0
+      },
+      "all_parsers_agree": 23.0
+    },
+    "gsm8k_30b": {
+      "benchmark": "gsm8k",
+      "model": "30b",
+      "n": 100,
+      "pairwise_agreement": {
+        "eq_number vs boxed": 22.0,
+        "eq_number vs fixed": 10.0,
+        "eq_number vs last_number": 10.0,
+        "eq_number vs finance_aware": 10.0,
+        "boxed vs fixed": 84.0,
+        "boxed vs last_number": 84.0,
+        "boxed vs finance_aware": 84.0,
+        "fixed vs last_number": 98.0,
+        "fixed vs finance_aware": 100.0,
+        "last_number vs finance_aware": 98.0,
+        "eq_number agrees with majority": 11.0,
+        "boxed agrees with majority": 85.0,
+        "fixed agrees with majority": 99.0,
+        "last_number agrees with majority": 99.0,
+        "finance_aware agrees with majority": 99.0
+      },
+      "all_parsers_agree": 7.0
+    },
+    "gsm8k_8b": {
+      "benchmark": "gsm8k",
+      "model": "8b",
+      "n": 100,
+      "pairwise_agreement": {
+        "eq_number vs boxed": 14.0,
+        "eq_number vs fixed": 13.0,
+        "eq_number vs last_number": 18.0,
+        "eq_number vs finance_aware": 13.0,
+        "boxed vs fixed": 99.0,
+        "boxed vs last_number": 94.0,
+        "boxed vs finance_aware": 99.0,
+        "fixed vs last_number": 95.0,
+        "fixed vs finance_aware": 100.0,
+        "last_number vs finance_aware": 95.0,
+        "eq_number agrees with majority": 13.0,
+        "boxed agrees with majority": 99.0,
+        "fixed agrees with majority": 100.0,
+        "last_number agrees with majority": 95.0,
+        "finance_aware agrees with majority": 100.0
+      },
+      "all_parsers_agree": 13.0
+    }
+  }
+}

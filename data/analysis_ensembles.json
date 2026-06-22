@@ -1,0 +1,173 @@
+{
+  "description": "Best 2/3-parser ensemble analysis",
+  "results": {
+    "finqa_1.7b": {
+      "benchmark": "finqa",
+      "model": "1.7b",
+      "n": 96,
+      "best_single": 37.5,
+      "best_pair": {
+        "parsers": [
+          "fixed",
+          "last_number"
+        ],
+        "accuracy": 39.6
+      },
+      "best_triple": {
+        "parsers": [
+          "eq_number",
+          "boxed",
+          "last_number"
+        ],
+        "accuracy": 39.6
+      },
+      "oracle_5": 39.6,
+      "gain_pair_over_single": 2.1,
+      "gain_triple_over_single": 2.1
+    },
+    "finqa_30b": {
+      "benchmark": "finqa",
+      "model": "30b",
+      "n": 96,
+      "best_single": 47.9,
+      "best_pair": {
+        "parsers": [
+          "eq_number",
+          "last_number"
+        ],
+        "accuracy": 50.0
+      },
+      "best_triple": {
+        "parsers": [
+          "eq_number",
+          "boxed",
+          "last_number"
+        ],
+        "accuracy": 51.0
+      },
+      "oracle_5": 51.0,
+      "gain_pair_over_single": 2.1,
+      "gain_triple_over_single": 3.1
+    },
+    "finqa_8b": {
+      "benchmark": "finqa",
+      "model": "8b",
+      "n": 96,
+      "best_single": 44.8,
+      "best_pair": {
+        "parsers": [
+          "eq_number",
+          "last_number"
+        ],
+        "accuracy": 45.8
+      },
+      "best_triple": {
+        "parsers": [
+          "eq_number",
+          "boxed",
+          "last_number"
+        ],
+        "accuracy": 45.8
+      },
+      "oracle_5": 45.8,
+      "gain_pair_over_single": 1.0,
+      "gain_triple_over_single": 1.0
+    },
+    "finqa_glm": {
+      "benchmark": "finqa",
+      "model": "glm",
+      "n": 96,
+      "best_single": 49.0,
+      "best_pair": {
+        "parsers": [
+          "eq_number",
+          "last_number"
+        ],
+        "accuracy": 50.0
+      },
+      "best_triple": {
+        "parsers": [
+          "eq_number",
+          "boxed",
+          "last_number"
+        ],
+        "accuracy": 50.0
+      },
+      "oracle_5": 50.0,
+      "gain_pair_over_single": 1.0,
+      "gain_triple_over_single": 1.0
+    },
+    "gsm8k_1.7b": {
+      "benchmark": "gsm8k",
+      "model": "1.7b",
+      "n": 100,
+      "best_single": 87.0,
+      "best_pair": {
+        "parsers": [
+          "eq_number",
+          "finance_aware"
+        ],
+        "accuracy": 87.0
+      },
+      "best_triple": {
+        "parsers": [
+          "eq_number",
+          "boxed",
+          "finance_aware"
+        ],
+        "accuracy": 87.0
+      },
+      "oracle_5": 87.0,
+      "gain_pair_over_single": 0.0,
+      "gain_triple_over_single": 0.0
+    },
+    "gsm8k_30b": {
+      "benchmark": "gsm8k",
+      "model": "30b",
+      "n": 100,
+      "best_single": 96.0,
+      "best_pair": {
+        "parsers": [
+          "fixed",
+          "last_number"
+        ],
+        "accuracy": 97.0
+      },
+      "best_triple": {
+        "parsers": [
+          "eq_number",
+          "fixed",
+          "last_number"
+        ],
+        "accuracy": 97.0
+      },
+      "oracle_5": 97.0,
+      "gain_pair_over_single": 1.0,
+      "gain_triple_over_single": 1.0
+    },
+    "gsm8k_8b": {
+      "benchmark": "gsm8k",
+      "model": "8b",
+      "n": 100,
+      "best_single": 95.0,
+      "best_pair": {
+        "parsers": [
+          "eq_number",
+          "fixed"
+        ],
+        "accuracy": 95.0
+      },
+      "best_triple": {
+        "parsers": [
+          "eq_number",
+          "boxed",
+          "fixed"
+        ],
+        "accuracy": 95.0
+      },
+      "oracle_5": 95.0,
+      "gain_pair_over_single": 0.0,
+      "gain_triple_over_single": 0.0
+    }
+  }
+}
