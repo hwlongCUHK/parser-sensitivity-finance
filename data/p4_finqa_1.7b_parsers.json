@@ -1,2915 +1,3035 @@
 {
   "eq_number": {
     "correct": 12,
-    "total": 96,
-    "accuracy": 0.125,
+    "total": 100,
+    "accuracy": 0.12,
     "predictions": [
       {
         "idx": 0,
         "pred": 0.32698,
-        "gt": 32.5,
+        "gt": "32.5%",
         "correct": false
       },
       {
         "idx": 1,
         "pred": 1429.5,
-        "gt": 20.5,
+        "gt": "20.5%",
         "correct": false
       },
       {
         "idx": 2,
         "pred": 79.0,
-        "gt": 5970.0,
+        "gt": "5970",
         "correct": false
       },
       {
         "idx": 3,
         "pred": null,
-        "gt": 13.0,
+        "gt": "13%",
         "correct": false
       },
       {
         "idx": 4,
         "pred": 2.1,
-        "gt": 63.1,
+        "gt": "63.1%",
         "correct": false
       },
       {
         "idx": 5,
         "pred": 381957.75,
-        "gt": 26.4,
+        "gt": "26.4",
         "correct": false
       },
       {
         "idx": 6,
         "pred": 0.46,
-        "gt": null,
+        "gt": "",
         "correct": false
       },
       {
         "idx": 7,
         "pred": 57.35,
-        "gt": 1.6,
+        "gt": "1.6%",
         "correct": false
       },
       {
         "idx": 8,
         "pred": -24.0,
-        "gt": 24.0,
+        "gt": "24",
         "correct": false
       },
       {
         "idx": 9,
         "pred": 648.9,
-        "gt": 325.7,
+        "gt": "325.7",
         "correct": false
       },
       {
         "idx": 10,
         "pred": 27.2,
-        "gt": -3.4,
+        "gt": "-3.4%",
         "correct": false
       },
       {
         "idx": 11,
         "pred": -71.0,
-        "gt": -71.0,
+        "gt": "-71",
         "correct": true
       },
       {
         "idx": 12,
         "pred": 90.62,
-        "gt": 90.62,
+        "gt": "90.62%",
         "correct": true
       },
       {
         "idx": 13,
         "pred": -7.0,
-        "gt": -22.0,
+        "gt": "-22%",
         "correct": false
       },
       {
         "idx": 14,
         "pred": 7001.0,
-        "gt": 9.8,
+        "gt": "9.8%",
         "correct": false
       },
       {
         "idx": 15,
         "pred": 132.9,
-        "gt": 29.4,
+        "gt": "29.4%",
         "correct": false
       },
       {
         "idx": 16,
         "pred": null,
-        "gt": 150.0,
+        "gt": "150",
         "correct": false
       },
       {
         "idx": 17,
         "pred": null,
-        "gt": 231341.7,
+        "gt": "231341.7",
         "correct": false
       },
       {
         "idx": 18,
         "pred": 20.5,
-        "gt": 19.23,
+        "gt": "19.23%",
         "correct": false
       },
       {
         "idx": 19,
         "pred": 0.142428,
-        "gt": 14.2,
+        "gt": "14.2%",
         "correct": false
       },
       {
         "idx": 20,
         "pred": 0.393,
-        "gt": 126.0,
+        "gt": "126%",
         "correct": false
       },
       {
         "idx": 21,
         "pred": 0.4,
-        "gt": 0.4,
+        "gt": "0.4",
         "correct": true
       },
       {
         "idx": 22,
         "pred": null,
-        "gt": 25012.0,
+        "gt": "25012",
         "correct": false
       },
       {
         "idx": 23,
         "pred": 768815.0,
-        "gt": 365.4,
+        "gt": "365.4",
         "correct": false
       },
       {
         "idx": 24,
         "pred": null,
-        "gt": 51.0,
+        "gt": "51%",
         "correct": false
       },
       {
         "idx": 25,
         "pred": 55687.0,
-        "gt": 5.54,
+        "gt": "5.54%",
         "correct": false
       },
       {
         "idx": 26,
         "pred": -84.0,
-        "gt": -84.0,
+        "gt": "-84",
         "correct": true
       },
       {
         "idx": 27,
         "pred": 119.04,
-        "gt": 88.57,
+        "gt": "88.57",
         "correct": false
       },
       {
         "idx": 28,
         "pred": 119.04,
-        "gt": 88.6,
+        "gt": "88.6%",
         "correct": false
       },
       {
         "idx": 29,
         "pred": 8.7,
-        "gt": 41.4,
+        "gt": "41.4%",
         "correct": false
       },
       {
         "idx": 30,
         "pred": 6.2,
-        "gt": 6.2,
+        "gt": "6.20",
         "correct": true
       },
       {
         "idx": 31,
         "pred": 20042.0,
-        "gt": 19.4,
+        "gt": "19.4%",
         "correct": false
       },
       {
         "idx": 32,
         "pred": 46.4,
-        "gt": 46.4,
+        "gt": "46.4",
         "correct": true
       },
       {
         "idx": 33,
         "pred": 8.67,
-        "gt": 9.3,
+        "gt": "9.3%",
         "correct": false
       },
       {
         "idx": 34,
         "pred": 643.0,
-        "gt": 405.0,
+        "gt": "405",
         "correct": false
       },
       {
         "idx": 35,
         "pred": null,
-        "gt": null,
+        "gt": "yes",
         "correct": false
       },
       {
         "idx": 36,
         "pred": null,
-        "gt": 54.0,
+        "gt": "54%",
         "correct": false
       },
       {
         "idx": 37,
         "pred": null,
-        "gt": 18.2,
+        "gt": "18.2%",
         "correct": false
       },
       {
         "idx": 38,
         "pred": 5873.0,
-        "gt": 14.3,
+        "gt": "14.3%",
         "correct": false
       },
       {
         "idx": 39,
         "pred": null,
-        "gt": 22.0,
+        "gt": "22",
         "correct": false
       },
       {
         "idx": 40,
         "pred": -3155.0,
-        "gt": -3.0,
+        "gt": "-3%",
         "correct": false
       },
       {
         "idx": 41,
         "pred": -780.0,
-        "gt": -1.6,
+        "gt": "-1.6%",
         "correct": false
       },
       {
         "idx": 42,
         "pred": null,
-        "gt": 2430.0,
+        "gt": "2430",
         "correct": false
       },
       {
         "idx": 43,
         "pred": 1196871.0,
-        "gt": 4.8,
+        "gt": "4.8%",
         "correct": false
       },
       {
         "idx": 44,
         "pred": 16.8,
-        "gt": 16.93,
+        "gt": "16.93%",
         "correct": true
       },
       {
         "idx": 45,
         "pred": 324.0,
-        "gt": 324.0,
+        "gt": "324",
         "correct": true
       },
       {
         "idx": 46,
         "pred": 198.27,
-        "gt": 98.27,
+        "gt": "98.27%",
         "correct": false
       },
       {
         "idx": 47,
         "pred": null,
-        "gt": 7.14,
+        "gt": "7.14",
         "correct": false
       },
       {
         "idx": 48,
         "pred": null,
-        "gt": 704.25,
+        "gt": "704.25",
         "correct": false
       },
       {
         "idx": 49,
         "pred": null,
-        "gt": 28000.0,
+        "gt": "28000",
         "correct": false
       },
       {
         "idx": 50,
         "pred": 0.0,
-        "gt": 0.3,
+        "gt": "0.3%",
         "correct": false
       },
       {
         "idx": 51,
         "pred": -1.9,
-        "gt": -1.9,
+        "gt": "-1.9",
         "correct": true
       },
       {
         "idx": 52,
         "pred": 619.0,
-        "gt": 12.0,
+        "gt": "12%",
         "correct": false
       },
       {
         "idx": 53,
         "pred": -147.0,
-        "gt": -2.9,
+        "gt": "-2.9%",
         "correct": false
       },
       {
         "idx": 54,
         "pred": 229.0,
-        "gt": 24.6,
+        "gt": "24.6%",
         "correct": false
       },
       {
         "idx": 55,
         "pred": 22998.06,
-        "gt": -9.7,
+        "gt": "-9.7%",
         "correct": false
       },
       {
         "idx": 56,
         "pred": 2655.0,
-        "gt": 65.3,
+        "gt": "65.3%",
         "correct": false
       },
       {
         "idx": 57,
         "pred": null,
-        "gt": 9.7,
+        "gt": "9.7%",
         "correct": false
       },
       {
         "idx": 58,
         "pred": null,
-        "gt": 42.0,
+        "gt": "42.0",
         "correct": false
       },
       {
         "idx": 59,
         "pred": -13636.0,
-        "gt": -13636.0,
+        "gt": "-13636",
         "correct": true
       },
       {
         "idx": 60,
         "pred": 20737.0,
-        "gt": 66.6,
+        "gt": "66.6%",
         "correct": false
       },
       {
         "idx": 61,
         "pred": null,
-        "gt": null,
+        "gt": "",
         "correct": false
       },
       {
         "idx": 62,
         "pred": -6118.0,
-        "gt": -25.0,
+        "gt": "-25%",
         "correct": false
       },
       {
         "idx": 63,
         "pred": null,
-        "gt": 20704.0,
+        "gt": "20704",
         "correct": false
       },
       {
         "idx": 64,
         "pred": 5890.0,
-        "gt": 52.04,
+        "gt": "52.04%",
         "correct": false
       },
       {
         "idx": 65,
         "pred": 438.0,
-        "gt": 75.8,
+        "gt": "75.8%",
         "correct": false
       },
       {
         "idx": 66,
         "pred": null,
-        "gt": 92.0,
+        "gt": "92",
         "correct": false
       },
       {
         "idx": 67,
         "pred": 1782.0,
-        "gt": 410.08,
+        "gt": "410.08",
         "correct": false
       },
       {
         "idx": 68,
         "pred": 7974538.0,
-        "gt": 30.4,
+        "gt": "30.4%",
         "correct": false
       },
       {
         "idx": 69,
         "pred": null,
-        "gt": 18178.0,
+        "gt": "18178",
         "correct": false
       },
       {
         "idx": 70,
         "pred": -1574.0,
-        "gt": -70.3,
+        "gt": "-70.3%",
         "correct": false
       },
       {
         "idx": 71,
         "pred": 17944.0,
-        "gt": 78.0,
+        "gt": "78%",
         "correct": false
       },
       {
         "idx": 72,
         "pred": null,
-        "gt": 22.0,
+        "gt": "22%",
         "correct": false
       },
       {
         "idx": 73,
         "pred": -13636.0,
-        "gt": -65.1,
+        "gt": "-65.1%",
         "correct": false
       },
       {
         "idx": 74,
         "pred": 0.05,
-        "gt": 18.8,
+        "gt": "18.8",
         "correct": false
       },
       {
         "idx": 75,
         "pred": -0.11,
-        "gt": -3.4,
+        "gt": "-3.4%",
         "correct": false
       },
       {
         "idx": 76,
         "pred": 39.74,
-        "gt": 74.0,
+        "gt": "74",
         "correct": false
       },
       {
         "idx": 77,
         "pred": -487.0,
-        "gt": -2.1,
+        "gt": "-2.1%",
         "correct": false
       },
       {
         "idx": 78,
         "pred": 70.4,
-        "gt": 780.0,
+        "gt": "780%",
         "correct": false
       },
       {
         "idx": 79,
         "pred": 26540900.0,
-        "gt": 98.75,
+        "gt": "98.75%",
         "correct": false
       },
       {
         "idx": 80,
         "pred": null,
-        "gt": -11.9,
+        "gt": "-11.9",
         "correct": false
       },
       {
         "idx": 81,
         "pred": 8.0,
-        "gt": 19.1,
+        "gt": "19.1%",
         "correct": false
       },
       {
         "idx": 82,
         "pred": 6.5,
-        "gt": null,
+        "gt": "the total balance in 2018 including interest and penalties would be $ 56.7 million .",
         "correct": false
       },
       {
         "idx": 83,
         "pred": 5.0,
-        "gt": 29.0,
+        "gt": "29%",
         "correct": false
       },
       {
         "idx": 84,
         "pred": 305.316,
-        "gt": 1.44,
+        "gt": "1.44",
         "correct": false
       },
       {
         "idx": 85,
         "pred": 822.0666,
-        "gt": 822.06,
+        "gt": "822.06",
         "correct": true
       },
       {
         "idx": 86,
         "pred": 8.61,
-        "gt": 7.7,
+        "gt": "7.7",
         "correct": false
       },
       {
         "idx": 87,
         "pred": 93543.0,
-        "gt": 27.0,
+        "gt": "27%",
         "correct": false
       },
       {
         "idx": 88,
         "pred": 10.0,
-        "gt": 10.0,
+        "gt": "10%",
         "correct": true
       },
       {
         "idx": 89,
         "pred": 47685.0,
-        "gt": 61545.0,
+        "gt": "61545",
         "correct": false
       },
       {
         "idx": 90,
         "pred": null,
-        "gt": null,
+        "gt": "yes",
         "correct": false
       },
       {
         "idx": 91,
         "pred": 28.0,
-        "gt": 46.34,
+        "gt": "46.34%",
         "correct": false
       },
       {
         "idx": 92,
         "pred": 4.35,
-        "gt": 10.6,
+        "gt": "10.6%",
         "correct": false
       },
       {
         "idx": 93,
         "pred": 2.0,
-        "gt": 1.31,
+        "gt": "1.31",
         "correct": false
       },
       {
         "idx": 94,
         "pred": 623.0,
-        "gt": 23.0,
+        "gt": "23.0%",
         "correct": false
       },
       {
         "idx": 95,
         "pred": 6291.0,
-        "gt": 16.0,
+        "gt": "16%",
+        "correct": false
+      },
+      {
+        "idx": 96,
+        "pred": null,
+        "gt": "80.6%",
+        "correct": false
+      },
+      {
+        "idx": 97,
+        "pred": 108.0,
+        "gt": "54%",
+        "correct": false
+      },
+      {
+        "idx": 98,
+        "pred": 4445.0,
+        "gt": "7231",
+        "correct": false
+      },
+      {
+        "idx": 99,
+        "pred": null,
+        "gt": "77",
         "correct": false
       }
     ]
   },
   "boxed": {
-    "correct": 27,
-    "total": 96,
-    "accuracy": 0.28125,
+    "correct": 28,
+    "total": 100,
+    "accuracy": 0.28,
     "predictions": [
       {
         "idx": 0,
         "pred": 32.7,
-        "gt": 32.5,
+        "gt": "32.5%",
         "correct": true
       },
       {
         "idx": 1,
         "pred": 55.6,
-        "gt": 20.5,
+        "gt": "20.5%",
         "correct": false
       },
       {
         "idx": 2,
         "pred": 79.0,
-        "gt": 5970.0,
+        "gt": "5970",
         "correct": false
       },
       {
         "idx": 3,
         "pred": null,
-        "gt": 13.0,
+        "gt": "13%",
         "correct": false
       },
       {
         "idx": 4,
         "pred": 7.6,
-        "gt": 63.1,
+        "gt": "63.1%",
         "correct": false
       },
       {
         "idx": 5,
         "pred": 15.23,
-        "gt": 26.4,
+        "gt": "26.4",
         "correct": false
       },
       {
         "idx": 6,
         "pred": 59.0,
-        "gt": null,
+        "gt": "",
         "correct": false
       },
       {
         "idx": 7,
         "pred": 1.64,
-        "gt": 1.6,
+        "gt": "1.6%",
         "correct": false
       },
       {
         "idx": 8,
         "pred": -24.0,
-        "gt": 24.0,
+        "gt": "24",
         "correct": false
       },
       {
         "idx": 9,
         "pred": null,
-        "gt": 325.7,
+        "gt": "325.7",
         "correct": false
       },
       {
         "idx": 10,
         "pred": null,
-        "gt": -3.4,
+        "gt": "-3.4%",
         "correct": false
       },
       {
         "idx": 11,
         "pred": -71.0,
-        "gt": -71.0,
+        "gt": "-71",
         "correct": true
       },
       {
         "idx": 12,
         "pred": 90.62,
-        "gt": 90.62,
+        "gt": "90.62%",
         "correct": true
       },
       {
         "idx": 13,
         "pred": -22.58,
-        "gt": -22.0,
+        "gt": "-22%",
         "correct": false
       },
       {
         "idx": 14,
         "pred": 0.0977,
-        "gt": 9.8,
+        "gt": "9.8%",
         "correct": false
       },
       {
         "idx": 15,
         "pred": 11.4,
-        "gt": 29.4,
+        "gt": "29.4%",
         "correct": false
       },
       {
         "idx": 16,
         "pred": null,
-        "gt": 150.0,
+        "gt": "150",
         "correct": false
       },
       {
         "idx": 17,
         "pred": null,
-        "gt": 231341.7,
+        "gt": "231341.7",
         "correct": false
       },
       {
         "idx": 18,
         "pred": 19.2,
-        "gt": 19.23,
+        "gt": "19.23%",
         "correct": true
       },
       {
         "idx": 19,
         "pred": 14.24,
-        "gt": 14.2,
+        "gt": "14.2%",
         "correct": true
       },
       {
         "idx": 20,
         "pred": 142.2,
-        "gt": 126.0,
+        "gt": "126%",
         "correct": false
       },
       {
         "idx": 21,
         "pred": null,
-        "gt": 0.4,
+        "gt": "0.4",
         "correct": false
       },
       {
         "idx": 22,
         "pred": null,
-        "gt": 25012.0,
+        "gt": "25012",
         "correct": false
       },
       {
         "idx": 23,
         "pred": 31.32,
-        "gt": 365.4,
+        "gt": "365.4",
         "correct": false
       },
       {
         "idx": 24,
         "pred": null,
-        "gt": 51.0,
+        "gt": "51%",
         "correct": false
       },
       {
         "idx": 25,
         "pred": 5.54,
-        "gt": 5.54,
+        "gt": "5.54%",
         "correct": true
       },
       {
         "idx": 26,
         "pred": -84.0,
-        "gt": -84.0,
+        "gt": "-84",
         "correct": true
       },
       {
         "idx": 27,
         "pred": null,
-        "gt": 88.57,
+        "gt": "88.57",
         "correct": false
       },
       {
         "idx": 28,
         "pred": 88.6,
-        "gt": 88.6,
+        "gt": "88.6%",
         "correct": true
       },
       {
         "idx": 29,
         "pred": 41.43,
-        "gt": 41.4,
+        "gt": "41.4%",
         "correct": true
       },
       {
         "idx": 30,
         "pred": 6.2,
-        "gt": 6.2,
+        "gt": "6.20",
         "correct": true
       },
       {
         "idx": 31,
         "pred": 10.8,
-        "gt": 19.4,
+        "gt": "19.4%",
         "correct": false
       },
       {
         "idx": 32,
         "pred": null,
-        "gt": 46.4,
+        "gt": "46.4",
         "correct": false
       },
       {
         "idx": 33,
         "pred": -8.51,
-        "gt": 9.3,
+        "gt": "9.3%",
         "correct": false
       },
       {
         "idx": 34,
         "pred": 0.0,
-        "gt": 405.0,
+        "gt": "405",
         "correct": false
       },
       {
         "idx": 35,
         "pred": null,
-        "gt": null,
+        "gt": "yes",
         "correct": false
       },
       {
         "idx": 36,
         "pred": 100.0,
-        "gt": 54.0,
+        "gt": "54%",
         "correct": false
       },
       {
         "idx": 37,
         "pred": null,
-        "gt": 18.2,
+        "gt": "18.2%",
         "correct": false
       },
       {
         "idx": 38,
         "pred": 14.25,
-        "gt": 14.3,
+        "gt": "14.3%",
         "correct": true
       },
       {
         "idx": 39,
         "pred": null,
-        "gt": 22.0,
+        "gt": "22",
         "correct": false
       },
       {
         "idx": 40,
         "pred": -2.8,
-        "gt": -3.0,
+        "gt": "-3%",
         "correct": false
       },
       {
         "idx": 41,
         "pred": -1.62,
-        "gt": -1.6,
+        "gt": "-1.6%",
         "correct": false
       },
       {
         "idx": 42,
         "pred": 5400.0,
-        "gt": 2430.0,
+        "gt": "2430",
         "correct": false
       },
       {
         "idx": 43,
         "pred": 0.0,
-        "gt": 4.8,
+        "gt": "4.8%",
         "correct": false
       },
       {
         "idx": 44,
         "pred": 16.8,
-        "gt": 16.93,
+        "gt": "16.93%",
         "correct": true
       },
       {
         "idx": 45,
         "pred": null,
-        "gt": 324.0,
+        "gt": "324",
         "correct": false
       },
       {
         "idx": 46,
         "pred": null,
-        "gt": 98.27,
+        "gt": "98.27%",
         "correct": false
       },
       {
         "idx": 47,
         "pred": 60.8,
-        "gt": 7.14,
+        "gt": "7.14",
         "correct": false
       },
       {
         "idx": 48,
         "pred": null,
-        "gt": 704.25,
+        "gt": "704.25",
         "correct": false
       },
       {
         "idx": 49,
         "pred": 190.0,
-        "gt": 28000.0,
+        "gt": "28000",
         "correct": false
       },
       {
         "idx": 50,
         "pred": null,
-        "gt": 0.3,
+        "gt": "0.3%",
         "correct": false
       },
       {
         "idx": 51,
         "pred": null,
-        "gt": -1.9,
+        "gt": "-1.9",
         "correct": false
       },
       {
         "idx": 52,
         "pred": 2.17,
-        "gt": 12.0,
+        "gt": "12%",
         "correct": false
       },
       {
         "idx": 53,
         "pred": -2.91,
-        "gt": -2.9,
+        "gt": "-2.9%",
         "correct": true
       },
       {
         "idx": 54,
         "pred": 0.245,
-        "gt": 24.6,
+        "gt": "24.6%",
         "correct": false
       },
       {
         "idx": 55,
         "pred": -9.73,
-        "gt": -9.7,
+        "gt": "-9.7%",
         "correct": true
       },
       {
         "idx": 56,
         "pred": 65.27,
-        "gt": 65.3,
+        "gt": "65.3%",
         "correct": true
       },
       {
         "idx": 57,
         "pred": 17290.0,
-        "gt": 9.7,
+        "gt": "9.7%",
         "correct": false
       },
       {
         "idx": 58,
         "pred": null,
-        "gt": 42.0,
+        "gt": "42.0",
         "correct": false
       },
       {
         "idx": 59,
         "pred": -13636.0,
-        "gt": -13636.0,
+        "gt": "-13636",
         "correct": true
       },
       {
         "idx": 60,
         "pred": 66.7,
-        "gt": 66.6,
+        "gt": "66.6%",
         "correct": true
       },
       {
         "idx": 61,
         "pred": null,
-        "gt": null,
+        "gt": "",
         "correct": false
       },
       {
         "idx": 62,
         "pred": -25.18,
-        "gt": -25.0,
+        "gt": "-25%",
         "correct": true
       },
       {
         "idx": 63,
         "pred": 20704.0,
-        "gt": 20704.0,
+        "gt": "20704",
         "correct": true
       },
       {
         "idx": 64,
         "pred": null,
-        "gt": 52.04,
+        "gt": "52.04%",
         "correct": false
       },
       {
         "idx": 65,
         "pred": 24.2,
-        "gt": 75.8,
+        "gt": "75.8%",
         "correct": false
       },
       {
         "idx": 66,
         "pred": null,
-        "gt": 92.0,
+        "gt": "92",
         "correct": false
       },
       {
         "idx": 67,
         "pred": 1337.0,
-        "gt": 410.08,
+        "gt": "410.08",
         "correct": false
       },
       {
         "idx": 68,
         "pred": 34.17,
-        "gt": 30.4,
+        "gt": "30.4%",
         "correct": false
       },
       {
         "idx": 69,
         "pred": null,
-        "gt": 18178.0,
+        "gt": "18178",
         "correct": false
       },
       {
         "idx": 70,
         "pred": -70.3,
-        "gt": -70.3,
+        "gt": "-70.3%",
         "correct": true
       },
       {
         "idx": 71,
         "pred": 89.8,
-        "gt": 78.0,
+        "gt": "78%",
         "correct": false
       },
       {
         "idx": 72,
         "pred": null,
-        "gt": 22.0,
+        "gt": "22%",
         "correct": false
       },
       {
         "idx": 73,
         "pred": -64.9,
-        "gt": -65.1,
+        "gt": "-65.1%",
         "correct": true
       },
       {
         "idx": 74,
         "pred": null,
-        "gt": 18.8,
+        "gt": "18.8",
         "correct": false
       },
       {
         "idx": 75,
         "pred": null,
-        "gt": -3.4,
+        "gt": "-3.4%",
         "correct": false
       },
       {
         "idx": 76,
         "pred": null,
-        "gt": 74.0,
+        "gt": "74",
         "correct": false
       },
       {
         "idx": 77,
         "pred": -2.1,
-        "gt": -2.1,
+        "gt": "-2.1%",
         "correct": true
       },
       {
         "idx": 78,
         "pred": -88.6,
-        "gt": 780.0,
+        "gt": "780%",
         "correct": false
       },
       {
         "idx": 79,
         "pred": 98.75,
-        "gt": 98.75,
+        "gt": "98.75%",
         "correct": true
       },
       {
         "idx": 80,
         "pred": 0.0,
-        "gt": -11.9,
+        "gt": "-11.9",
         "correct": false
       },
       {
         "idx": 81,
         "pred": 9.48,
-        "gt": 19.1,
+        "gt": "19.1%",
         "correct": false
       },
       {
         "idx": 82,
         "pred": 127.1,
-        "gt": null,
+        "gt": "the total balance in 2018 including interest and penalties would be $ 56.7 million .",
         "correct": false
       },
       {
         "idx": 83,
         "pred": 29.5,
-        "gt": 29.0,
+        "gt": "29%",
         "correct": false
       },
       {
         "idx": 84,
         "pred": 1.13,
-        "gt": 1.44,
+        "gt": "1.44",
         "correct": false
       },
       {
         "idx": 85,
         "pred": 822.07,
-        "gt": 822.06,
+        "gt": "822.06",
         "correct": true
       },
       {
         "idx": 86,
         "pred": 7.68,
-        "gt": 7.7,
+        "gt": "7.7",
         "correct": true
       },
       {
         "idx": 87,
         "pred": 46.5,
-        "gt": 27.0,
+        "gt": "27%",
         "correct": false
       },
       {
         "idx": 88,
         "pred": 10.1,
-        "gt": 10.0,
+        "gt": "10%",
         "correct": true
       },
       {
         "idx": 89,
         "pred": 47685.0,
-        "gt": 61545.0,
+        "gt": "61545",
         "correct": false
       },
       {
         "idx": 90,
         "pred": null,
-        "gt": null,
+        "gt": "yes",
         "correct": false
       },
       {
         "idx": 91,
         "pred": 18.38,
-        "gt": 46.34,
+        "gt": "46.34%",
         "correct": false
       },
       {
         "idx": 92,
         "pred": null,
-        "gt": 10.6,
+        "gt": "10.6%",
         "correct": false
       },
       {
         "idx": 93,
         "pred": 2.0,
-        "gt": 1.31,
+        "gt": "1.31",
         "correct": false
       },
       {
         "idx": 94,
         "pred": 23.0,
-        "gt": 23.0,
+        "gt": "23.0%",
         "correct": true
       },
       {
         "idx": 95,
         "pred": 15.7,
-        "gt": 16.0,
+        "gt": "16%",
+        "correct": false
+      },
+      {
+        "idx": 96,
+        "pred": null,
+        "gt": "80.6%",
+        "correct": false
+      },
+      {
+        "idx": 97,
+        "pred": 53.7,
+        "gt": "54%",
+        "correct": true
+      },
+      {
+        "idx": 98,
+        "pred": null,
+        "gt": "7231",
+        "correct": false
+      },
+      {
+        "idx": 99,
+        "pred": null,
+        "gt": "77",
         "correct": false
       }
     ]
   },
   "fixed": {
-    "correct": 32,
-    "total": 96,
-    "accuracy": 0.3333333333333333,
+    "correct": 34,
+    "total": 100,
+    "accuracy": 0.34,
     "predictions": [
       {
         "idx": 0,
         "pred": 32.7,
-        "gt": 32.5,
+        "gt": "32.5%",
         "correct": true
       },
       {
         "idx": 1,
         "pred": 55.6,
-        "gt": 20.5,
+        "gt": "20.5%",
         "correct": false
       },
       {
         "idx": 2,
         "pred": 79.0,
-        "gt": 5970.0,
+        "gt": "5970",
         "correct": false
       },
       {
         "idx": 3,
         "pred": null,
-        "gt": 13.0,
+        "gt": "13%",
         "correct": false
       },
       {
         "idx": 4,
         "pred": 7.6,
-        "gt": 63.1,
+        "gt": "63.1%",
         "correct": false
       },
       {
         "idx": 5,
         "pred": 15.23,
-        "gt": 26.4,
+        "gt": "26.4",
         "correct": false
       },
       {
         "idx": 6,
         "pred": 59.0,
-        "gt": null,
+        "gt": "",
         "correct": false
       },
       {
         "idx": 7,
         "pred": 1.64,
-        "gt": 1.6,
+        "gt": "1.6%",
         "correct": false
       },
       {
         "idx": 8,
         "pred": -24.0,
-        "gt": 24.0,
+        "gt": "24",
         "correct": false
       },
       {
         "idx": 9,
         "pred": 325.766666,
-        "gt": 325.7,
+        "gt": "325.7",
         "correct": true
       },
       {
         "idx": 10,
         "pred": 28.4,
-        "gt": -3.4,
+        "gt": "-3.4%",
         "correct": false
       },
       {
         "idx": 11,
         "pred": -71.0,
-        "gt": -71.0,
+        "gt": "-71",
         "correct": true
       },
       {
         "idx": 12,
         "pred": 90.62,
-        "gt": 90.62,
+        "gt": "90.62%",
         "correct": true
       },
       {
         "idx": 13,
         "pred": -22.58,
-        "gt": -22.0,
+        "gt": "-22%",
         "correct": false
       },
       {
         "idx": 14,
         "pred": 0.0977,
-        "gt": 9.8,
+        "gt": "9.8%",
         "correct": false
       },
       {
         "idx": 15,
         "pred": 11.4,
-        "gt": 29.4,
+        "gt": "29.4%",
         "correct": false
       },
       {
         "idx": 16,
         "pred": null,
-        "gt": 150.0,
+        "gt": "150",
         "correct": false
       },
       {
         "idx": 17,
         "pred": null,
-        "gt": 231341.7,
+        "gt": "231341.7",
         "correct": false
       },
       {
         "idx": 18,
         "pred": 19.2,
-        "gt": 19.23,
+        "gt": "19.23%",
         "correct": true
       },
       {
         "idx": 19,
         "pred": 14.24,
-        "gt": 14.2,
+        "gt": "14.2%",
         "correct": true
       },
       {
         "idx": 20,
         "pred": 142.2,
-        "gt": 126.0,
+        "gt": "126%",
         "correct": false
       },
       {
         "idx": 21,
         "pred": 0.4,
-        "gt": 0.4,
+        "gt": "0.4",
         "correct": true
       },
       {
         "idx": 22,
         "pred": null,
-        "gt": 25012.0,
+        "gt": "25012",
         "correct": false
       },
       {
         "idx": 23,
         "pred": 31.32,
-        "gt": 365.4,
+        "gt": "365.4",
         "correct": false
       },
       {
         "idx": 24,
         "pred": null,
-        "gt": 51.0,
+        "gt": "51%",
         "correct": false
       },
       {
         "idx": 25,
         "pred": 5.54,
-        "gt": 5.54,
+        "gt": "5.54%",
         "correct": true
       },
       {
         "idx": 26,
         "pred": -84.0,
-        "gt": -84.0,
+        "gt": "-84",
         "correct": true
       },
       {
         "idx": 27,
         "pred": 0.856,
-        "gt": 88.57,
+        "gt": "88.57",
         "correct": false
       },
       {
         "idx": 28,
         "pred": 88.6,
-        "gt": 88.6,
+        "gt": "88.6%",
         "correct": true
       },
       {
         "idx": 29,
         "pred": 41.43,
-        "gt": 41.4,
+        "gt": "41.4%",
         "correct": true
       },
       {
         "idx": 30,
         "pred": 6.2,
-        "gt": 6.2,
+        "gt": "6.20",
         "correct": true
       },
       {
         "idx": 31,
         "pred": 10.8,
-        "gt": 19.4,
+        "gt": "19.4%",
         "correct": false
       },
       {
         "idx": 32,
         "pred": 2003.0,
-        "gt": 46.4,
+        "gt": "46.4",
         "correct": false
       },
       {
         "idx": 33,
         "pred": -8.51,
-        "gt": 9.3,
+        "gt": "9.3%",
         "correct": false
       },
       {
         "idx": 34,
         "pred": 0.0,
-        "gt": 405.0,
+        "gt": "405",
         "correct": false
       },
       {
         "idx": 35,
         "pred": null,
-        "gt": null,
+        "gt": "yes",
         "correct": false
       },
       {
         "idx": 36,
         "pred": 100.0,
-        "gt": 54.0,
+        "gt": "54%",
         "correct": false
       },
       {
         "idx": 37,
         "pred": null,
-        "gt": 18.2,
+        "gt": "18.2%",
         "correct": false
       },
       {
         "idx": 38,
         "pred": 14.25,
-        "gt": 14.3,
+        "gt": "14.3%",
         "correct": true
       },
       {
         "idx": 39,
         "pred": null,
-        "gt": 22.0,
+        "gt": "22",
         "correct": false
       },
       {
         "idx": 40,
         "pred": -2.8,
-        "gt": -3.0,
+        "gt": "-3%",
         "correct": false
       },
       {
         "idx": 41,
         "pred": -1.62,
-        "gt": -1.6,
+        "gt": "-1.6%",
         "correct": false
       },
       {
         "idx": 42,
         "pred": 5400.0,
-        "gt": 2430.0,
+        "gt": "2430",
         "correct": false
       },
       {
         "idx": 43,
         "pred": 0.0,
-        "gt": 4.8,
+        "gt": "4.8%",
         "correct": false
       },
       {
         "idx": 44,
         "pred": 16.8,
-        "gt": 16.93,
+        "gt": "16.93%",
         "correct": true
       },
       {
         "idx": 45,
         "pred": 324.0,
-        "gt": 324.0,
+        "gt": "324",
         "correct": true
       },
       {
         "idx": 46,
         "pred": 98.27,
-        "gt": 98.27,
+        "gt": "98.27%",
         "correct": true
       },
       {
         "idx": 47,
         "pred": 60.8,
-        "gt": 7.14,
+        "gt": "7.14",
         "correct": false
       },
       {
         "idx": 48,
         "pred": null,
-        "gt": 704.25,
+        "gt": "704.25",
         "correct": false
       },
       {
         "idx": 49,
         "pred": 190.0,
-        "gt": 28000.0,
+        "gt": "28000",
         "correct": false
       },
       {
         "idx": 50,
         "pred": 0.0,
-        "gt": 0.3,
+        "gt": "0.3%",
         "correct": false
       },
       {
         "idx": 51,
         "pred": -1.9,
-        "gt": -1.9,
+        "gt": "-1.9",
         "correct": true
       },
       {
         "idx": 52,
         "pred": 2.17,
-        "gt": 12.0,
+        "gt": "12%",
         "correct": false
       },
       {
         "idx": 53,
         "pred": -2.91,
-        "gt": -2.9,
+        "gt": "-2.9%",
         "correct": true
       },
       {
         "idx": 54,
         "pred": 0.245,
-        "gt": 24.6,
+        "gt": "24.6%",
         "correct": false
       },
       {
         "idx": 55,
         "pred": -9.73,
-        "gt": -9.7,
+        "gt": "-9.7%",
         "correct": true
       },
       {
         "idx": 56,
         "pred": 65.27,
-        "gt": 65.3,
+        "gt": "65.3%",
         "correct": true
       },
       {
         "idx": 57,
         "pred": 17290.0,
-        "gt": 9.7,
+        "gt": "9.7%",
         "correct": false
       },
       {
         "idx": 58,
         "pred": null,
-        "gt": 42.0,
+        "gt": "42.0",
         "correct": false
       },
       {
         "idx": 59,
         "pred": -13636.0,
-        "gt": -13636.0,
+        "gt": "-13636",
         "correct": true
       },
       {
         "idx": 60,
         "pred": 66.7,
-        "gt": 66.6,
+        "gt": "66.6%",
         "correct": true
       },
       {
         "idx": 61,
         "pred": null,
-        "gt": null,
+        "gt": "",
         "correct": false
       },
       {
         "idx": 62,
         "pred": -25.18,
-        "gt": -25.0,
+        "gt": "-25%",
         "correct": true
       },
       {
         "idx": 63,
         "pred": 20704.0,
-        "gt": 20704.0,
+        "gt": "20704",
         "correct": true
       },
       {
         "idx": 64,
         "pred": 0.5204,
-        "gt": 52.04,
+        "gt": "52.04%",
         "correct": false
       },
       {
         "idx": 65,
         "pred": 24.2,
-        "gt": 75.8,
+        "gt": "75.8%",
         "correct": false
       },
       {
         "idx": 66,
         "pred": null,
-        "gt": 92.0,
+        "gt": "92",
         "correct": false
       },
       {
         "idx": 67,
         "pred": 1337.0,
-        "gt": 410.08,
+        "gt": "410.08",
         "correct": false
       },
       {
         "idx": 68,
         "pred": 34.17,
-        "gt": 30.4,
+        "gt": "30.4%",
         "correct": false
       },
       {
         "idx": 69,
         "pred": null,
-        "gt": 18178.0,
+        "gt": "18178",
         "correct": false
       },
       {
         "idx": 70,
         "pred": -70.3,
-        "gt": -70.3,
+        "gt": "-70.3%",
         "correct": true
       },
       {
         "idx": 71,
         "pred": 89.8,
-        "gt": 78.0,
+        "gt": "78%",
         "correct": false
       },
       {
         "idx": 72,
         "pred": null,
-        "gt": 22.0,
+        "gt": "22%",
         "correct": false
       },
       {
         "idx": 73,
         "pred": -64.9,
-        "gt": -65.1,
+        "gt": "-65.1%",
         "correct": true
       },
       {
         "idx": 74,
         "pred": 0.05,
-        "gt": 18.8,
+        "gt": "18.8",
         "correct": false
       },
       {
         "idx": 75,
         "pred": -3.4375,
-        "gt": -3.4,
+        "gt": "-3.4%",
         "correct": false
       },
       {
         "idx": 76,
         "pred": 97.8,
-        "gt": 74.0,
+        "gt": "74",
         "correct": false
       },
       {
         "idx": 77,
         "pred": -2.1,
-        "gt": -2.1,
+        "gt": "-2.1%",
         "correct": true
       },
       {
         "idx": 78,
         "pred": -88.6,
-        "gt": 780.0,
+        "gt": "780%",
         "correct": false
       },
       {
         "idx": 79,
         "pred": 98.75,
-        "gt": 98.75,
+        "gt": "98.75%",
         "correct": true
       },
       {
         "idx": 80,
         "pred": 0.0,
-        "gt": -11.9,
+        "gt": "-11.9",
         "correct": false
       },
       {
         "idx": 81,
         "pred": 9.48,
-        "gt": 19.1,
+        "gt": "19.1%",
         "correct": false
       },
       {
         "idx": 82,
         "pred": 127.1,
-        "gt": null,
+        "gt": "the total balance in 2018 including interest and penalties would be $ 56.7 million .",
         "correct": false
       },
       {
         "idx": 83,
         "pred": 29.5,
-        "gt": 29.0,
+        "gt": "29%",
         "correct": false
       },
       {
         "idx": 84,
         "pred": 1.13,
-        "gt": 1.44,
+        "gt": "1.44",
         "correct": false
       },
       {
         "idx": 85,
         "pred": 822.07,
-        "gt": 822.06,
+        "gt": "822.06",
         "correct": true
       },
       {
         "idx": 86,
         "pred": 7.68,
-        "gt": 7.7,
+        "gt": "7.7",
         "correct": true
       },
       {
         "idx": 87,
         "pred": 46.5,
-        "gt": 27.0,
+        "gt": "27%",
         "correct": false
       },
       {
         "idx": 88,
         "pred": 10.1,
-        "gt": 10.0,
+        "gt": "10%",
         "correct": true
       },
       {
         "idx": 89,
         "pred": 47685.0,
-        "gt": 61545.0,
+        "gt": "61545",
         "correct": false
       },
       {
         "idx": 90,
         "pred": null,
-        "gt": null,
+        "gt": "yes",
         "correct": false
       },
       {
         "idx": 91,
         "pred": 18.38,
-        "gt": 46.34,
+        "gt": "46.34%",
         "correct": false
       },
       {
         "idx": 92,
         "pred": 9.0625,
-        "gt": 10.6,
+        "gt": "10.6%",
         "correct": false
       },
       {
         "idx": 93,
         "pred": 2.0,
-        "gt": 1.31,
+        "gt": "1.31",
         "correct": false
       },
       {
         "idx": 94,
         "pred": 23.0,
-        "gt": 23.0,
+        "gt": "23.0%",
         "correct": true
       },
       {
         "idx": 95,
         "pred": 15.7,
-        "gt": 16.0,
+        "gt": "16%",
+        "correct": false
+      },
+      {
+        "idx": 96,
+        "pred": null,
+        "gt": "80.6%",
+        "correct": false
+      },
+      {
+        "idx": 97,
+        "pred": 53.7,
+        "gt": "54%",
+        "correct": true
+      },
+      {
+        "idx": 98,
+        "pred": 7231.0,
+        "gt": "7231",
+        "correct": true
+      },
+      {
+        "idx": 99,
+        "pred": null,
+        "gt": "77",
         "correct": false
       }
     ]
   },
   "last_number": {
-    "correct": 36,
-    "total": 96,
-    "accuracy": 0.375,
+    "correct": 38,
+    "total": 100,
+    "accuracy": 0.38,
     "predictions": [
       {
         "idx": 0,
         "pred": 32.7,
-        "gt": 32.5,
+        "gt": "32.5%",
         "correct": true
       },
       {
         "idx": 1,
         "pred": 55.6,
-        "gt": 20.5,
+        "gt": "20.5%",
         "correct": false
       },
       {
         "idx": 2,
         "pred": 79.0,
-        "gt": 5970.0,
+        "gt": "5970",
         "correct": false
       },
       {
         "idx": 3,
         "pred": 2015.0,
-        "gt": 13.0,
+        "gt": "13%",
         "correct": false
       },
       {
         "idx": 4,
         "pred": 7.6,
-        "gt": 63.1,
+        "gt": "63.1%",
         "correct": false
       },
       {
         "idx": 5,
         "pred": 15.23,
-        "gt": 26.4,
+        "gt": "26.4",
         "correct": false
       },
       {
         "idx": 6,
         "pred": 59.0,
-        "gt": null,
+        "gt": "",
         "correct": false
       },
       {
         "idx": 7,
         "pred": 1.64,
-        "gt": 1.6,
+        "gt": "1.6%",
         "correct": false
       },
       {
         "idx": 8,
         "pred": -24.0,
-        "gt": 24.0,
+        "gt": "24",
         "correct": false
       },
       {
         "idx": 9,
         "pred": 325.8,
-        "gt": 325.7,
+        "gt": "325.7",
         "correct": true
       },
       {
         "idx": 10,
         "pred": 8.35,
-        "gt": -3.4,
+        "gt": "-3.4%",
         "correct": false
       },
       {
         "idx": 11,
         "pred": -71.0,
-        "gt": -71.0,
+        "gt": "-71",
         "correct": true
       },
       {
         "idx": 12,
         "pred": 90.62,
-        "gt": 90.62,
+        "gt": "90.62%",
         "correct": true
       },
       {
         "idx": 13,
         "pred": 2009.0,
-        "gt": -22.0,
+        "gt": "-22%",
         "correct": false
       },
       {
         "idx": 14,
         "pred": 2008.0,
-        "gt": 9.8,
+        "gt": "9.8%",
         "correct": false
       },
       {
         "idx": 15,
         "pred": 11.4,
-        "gt": 29.4,
+        "gt": "29.4%",
         "correct": false
       },
       {
         "idx": 16,
-        "pred": 5200.0,
-        "gt": 150.0,
+        "pred": null,
+        "gt": "150",
         "correct": false
       },
       {
         "idx": 17,
         "pred": 2001.0,
-        "gt": 231341.7,
+        "gt": "231341.7",
         "correct": false
       },
       {
         "idx": 18,
         "pred": 19.2,
-        "gt": 19.23,
+        "gt": "19.23%",
         "correct": true
       },
       {
         "idx": 19,
         "pred": 14.24,
-        "gt": 14.2,
+        "gt": "14.2%",
         "correct": true
       },
       {
         "idx": 20,
         "pred": 2011.0,
-        "gt": 126.0,
+        "gt": "126%",
         "correct": false
       },
       {
         "idx": 21,
         "pred": 0.4,
-        "gt": 0.4,
+        "gt": "0.4",
         "correct": true
       },
       {
         "idx": 22,
         "pred": 8304.0,
-        "gt": 25012.0,
+        "gt": "25012",
         "correct": false
       },
       {
         "idx": 23,
         "pred": 31.32,
-        "gt": 365.4,
+        "gt": "365.4",
         "correct": false
       },
       {
         "idx": 24,
-        "pred": 239.5,
-        "gt": 51.0,
+        "pred": null,
+        "gt": "51%",
         "correct": false
       },
       {
         "idx": 25,
         "pred": 5.54,
-        "gt": 5.54,
+        "gt": "5.54%",
         "correct": true
       },
       {
         "idx": 26,
         "pred": -84.0,
-        "gt": -84.0,
+        "gt": "-84",
         "correct": true
       },
       {
         "idx": 27,
         "pred": 88.6,
-        "gt": 88.57,
+        "gt": "88.57",
         "correct": true
       },
       {
         "idx": 28,
         "pred": 88.6,
-        "gt": 88.6,
+        "gt": "88.6%",
         "correct": true
       },
       {
         "idx": 29,
         "pred": 41.43,
-        "gt": 41.4,
+        "gt": "41.4%",
         "correct": true
       },
       {
         "idx": 30,
         "pred": 6.2,
-        "gt": 6.2,
+        "gt": "6.20",
         "correct": true
       },
       {
         "idx": 31,
         "pred": 10.8,
-        "gt": 19.4,
+        "gt": "19.4%",
         "correct": false
       },
       {
         "idx": 32,
         "pred": 46.4,
-        "gt": 46.4,
+        "gt": "46.4",
         "correct": true
       },
       {
         "idx": 33,
         "pred": -8.51,
-        "gt": 9.3,
+        "gt": "9.3%",
         "correct": false
       },
       {
         "idx": 34,
         "pred": 0.0,
-        "gt": 405.0,
+        "gt": "405",
         "correct": false
       },
       {
         "idx": 35,
         "pred": 5.0,
-        "gt": null,
+        "gt": "yes",
         "correct": false
       },
       {
         "idx": 36,
         "pred": 100.0,
-        "gt": 54.0,
+        "gt": "54%",
         "correct": false
       },
       {
         "idx": 37,
         "pred": 2013.0,
-        "gt": 18.2,
+        "gt": "18.2%",
         "correct": false
       },
       {
         "idx": 38,
         "pred": 14.25,
-        "gt": 14.3,
+        "gt": "14.3%",
         "correct": true
       },
       {
         "idx": 39,
         "pred": 2011.0,
-        "gt": 22.0,
+        "gt": "22",
         "correct": false
       },
       {
         "idx": 40,
         "pred": -2.8,
-        "gt": -3.0,
+        "gt": "-3%",
         "correct": false
       },
       {
         "idx": 41,
         "pred": -1.62,
-        "gt": -1.6,
+        "gt": "-1.6%",
         "correct": false
       },
       {
         "idx": 42,
         "pred": 2006.0,
-        "gt": 2430.0,
+        "gt": "2430",
         "correct": false
       },
       {
         "idx": 43,
         "pred": 2018.0,
-        "gt": 4.8,
+        "gt": "4.8%",
         "correct": false
       },
       {
         "idx": 44,
         "pred": 16.8,
-        "gt": 16.93,
+        "gt": "16.93%",
         "correct": true
       },
       {
         "idx": 45,
         "pred": 294.0,
-        "gt": 324.0,
+        "gt": "324",
         "correct": false
       },
       {
         "idx": 46,
         "pred": 98.27,
-        "gt": 98.27,
+        "gt": "98.27%",
         "correct": true
       },
       {
         "idx": 47,
         "pred": 60.8,
-        "gt": 7.14,
+        "gt": "7.14",
         "correct": false
       },
       {
         "idx": 48,
         "pred": 704.25,
-        "gt": 704.25,
+        "gt": "704.25",
         "correct": true
       },
       {
         "idx": 49,
         "pred": 190.0,
-        "gt": 28000.0,
+        "gt": "28000",
         "correct": false
       },
       {
         "idx": 50,
         "pred": 2010.0,
-        "gt": 0.3,
+        "gt": "0.3%",
         "correct": false
       },
       {
         "idx": 51,
         "pred": -1.9,
-        "gt": -1.9,
+        "gt": "-1.9",
         "correct": true
       },
       {
         "idx": 52,
         "pred": 2.17,
-        "gt": 12.0,
+        "gt": "12%",
         "correct": false
       },
       {
         "idx": 53,
         "pred": -2.91,
-        "gt": -2.9,
+        "gt": "-2.9%",
         "correct": true
       },
       {
         "idx": 54,
         "pred": 0.245,
-        "gt": 24.6,
+        "gt": "24.6%",
         "correct": false
       },
       {
         "idx": 55,
         "pred": -9.73,
-        "gt": -9.7,
+        "gt": "-9.7%",
         "correct": true
       },
       {
         "idx": 56,
         "pred": 65.27,
-        "gt": 65.3,
+        "gt": "65.3%",
         "correct": true
       },
       {
         "idx": 57,
         "pred": 17290.0,
-        "gt": 9.7,
+        "gt": "9.7%",
         "correct": false
       },
       {
         "idx": 58,
         "pred": 2006.0,
-        "gt": 42.0,
+        "gt": "42.0",
         "correct": false
       },
       {
         "idx": 59,
         "pred": -13636.0,
-        "gt": -13636.0,
+        "gt": "-13636",
         "correct": true
       },
       {
         "idx": 60,
         "pred": 66.7,
-        "gt": 66.6,
+        "gt": "66.6%",
         "correct": true
       },
       {
         "idx": 61,
         "pred": 184.0,
-        "gt": null,
+        "gt": "",
         "correct": false
       },
       {
         "idx": 62,
         "pred": -25.18,
-        "gt": -25.0,
+        "gt": "-25%",
         "correct": true
       },
       {
         "idx": 63,
         "pred": 20704.0,
-        "gt": 20704.0,
+        "gt": "20704",
         "correct": true
       },
       {
         "idx": 64,
         "pred": 52.0,
-        "gt": 52.04,
+        "gt": "52.04%",
         "correct": true
       },
       {
         "idx": 65,
         "pred": 24.2,
-        "gt": 75.8,
+        "gt": "75.8%",
         "correct": false
       },
       {
         "idx": 66,
         "pred": 2012.0,
-        "gt": 92.0,
+        "gt": "92",
         "correct": false
       },
       {
         "idx": 67,
         "pred": 1337.0,
-        "gt": 410.08,
+        "gt": "410.08",
         "correct": false
       },
       {
         "idx": 68,
         "pred": 34.17,
-        "gt": 30.4,
+        "gt": "30.4%",
         "correct": false
       },
       {
         "idx": 69,
         "pred": 18178.0,
-        "gt": 18178.0,
+        "gt": "18178",
         "correct": true
       },
       {
         "idx": 70,
         "pred": -70.3,
-        "gt": -70.3,
+        "gt": "-70.3%",
         "correct": true
       },
       {
         "idx": 71,
         "pred": 89.8,
-        "gt": 78.0,
+        "gt": "78%",
         "correct": false
       },
       {
         "idx": 72,
         "pred": 22.0,
-        "gt": 22.0,
+        "gt": "22%",
         "correct": true
       },
       {
         "idx": 73,
         "pred": 2006.0,
-        "gt": -65.1,
+        "gt": "-65.1%",
         "correct": false
       },
       {
         "idx": 74,
         "pred": 18750000.0,
-        "gt": 18.8,
+        "gt": "18.8",
         "correct": false
       },
       {
         "idx": 75,
         "pred": -3.44,
-        "gt": -3.4,
+        "gt": "-3.4%",
         "correct": false
       },
       {
         "idx": 76,
-        "pred": 2005.0,
-        "gt": 74.0,
+        "pred": null,
+        "gt": "74",
         "correct": false
       },
       {
         "idx": 77,
         "pred": -2.1,
-        "gt": -2.1,
+        "gt": "-2.1%",
         "correct": true
       },
       {
         "idx": 78,
         "pred": -88.6,
-        "gt": 780.0,
+        "gt": "780%",
         "correct": false
       },
       {
         "idx": 79,
         "pred": 98.75,
-        "gt": 98.75,
+        "gt": "98.75%",
         "correct": true
       },
       {
         "idx": 80,
         "pred": 0.0,
-        "gt": -11.9,
+        "gt": "-11.9",
         "correct": false
       },
       {
         "idx": 81,
         "pred": 9.48,
-        "gt": 19.1,
+        "gt": "19.1%",
         "correct": false
       },
       {
         "idx": 82,
         "pred": 127.1,
-        "gt": null,
+        "gt": "the total balance in 2018 including interest and penalties would be $ 56.7 million .",
         "correct": false
       },
       {
         "idx": 83,
         "pred": 29.5,
-        "gt": 29.0,
+        "gt": "29%",
         "correct": false
       },
       {
         "idx": 84,
         "pred": 1.13,
-        "gt": 1.44,
+        "gt": "1.44",
         "correct": false
       },
       {
         "idx": 85,
         "pred": 822.07,
-        "gt": 822.06,
+        "gt": "822.06",
         "correct": true
       },
       {
         "idx": 86,
         "pred": 7.68,
-        "gt": 7.7,
+        "gt": "7.7",
         "correct": true
       },
       {
         "idx": 87,
         "pred": 46.5,
-        "gt": 27.0,
+        "gt": "27%",
         "correct": false
       },
       {
         "idx": 88,
         "pred": 10.1,
-        "gt": 10.0,
+        "gt": "10%",
         "correct": true
       },
       {
         "idx": 89,
         "pred": 2012.0,
-        "gt": 61545.0,
+        "gt": "61545",
         "correct": false
       },
       {
         "idx": 90,
-        "pred": 2012.0,
-        "gt": null,
+        "pred": null,
+        "gt": "yes",
         "correct": false
       },
       {
         "idx": 91,
         "pred": 18.38,
-        "gt": 46.34,
+        "gt": "46.34%",
         "correct": false
       },
       {
         "idx": 92,
         "pred": 9.06,
-        "gt": 10.6,
+        "gt": "10.6%",
         "correct": false
       },
       {
         "idx": 93,
         "pred": 3.0,
-        "gt": 1.31,
+        "gt": "1.31",
         "correct": false
       },
       {
         "idx": 94,
         "pred": 23.0,
-        "gt": 23.0,
+        "gt": "23.0%",
         "correct": true
       },
       {
         "idx": 95,
         "pred": 15.7,
-        "gt": 16.0,
+        "gt": "16%",
+        "correct": false
+      },
+      {
+        "idx": 96,
+        "pred": null,
+        "gt": "80.6%",
+        "correct": false
+      },
+      {
+        "idx": 97,
+        "pred": 53.7,
+        "gt": "54%",
+        "correct": true
+      },
+      {
+        "idx": 98,
+        "pred": 7231.0,
+        "gt": "7231",
+        "correct": true
+      },
+      {
+        "idx": 99,
+        "pred": 2008.0,
+        "gt": "77",
         "correct": false
       }
     ]
   },
   "finance_aware": {
-    "correct": 33,
-    "total": 96,
-    "accuracy": 0.34375,
+    "correct": 35,
+    "total": 100,
+    "accuracy": 0.35,
     "predictions": [
       {
         "idx": 0,
         "pred": 32.7,
-        "gt": 32.5,
+        "gt": "32.5%",
         "correct": true
       },
       {
         "idx": 1,
         "pred": 55.6,
-        "gt": 20.5,
+        "gt": "20.5%",
         "correct": false
       },
       {
         "idx": 2,
         "pred": 79.0,
-        "gt": 5970.0,
+        "gt": "5970",
         "correct": false
       },
       {
         "idx": 3,
         "pred": 2015.0,
-        "gt": 13.0,
+        "gt": "13%",
         "correct": false
       },
       {
         "idx": 4,
         "pred": 7.6,
-        "gt": 63.1,
+        "gt": "63.1%",
         "correct": false
       },
       {
         "idx": 5,
         "pred": 15.23,
-        "gt": 26.4,
+        "gt": "26.4",
         "correct": false
       },
       {
         "idx": 6,
         "pred": 59.0,
-        "gt": null,
+        "gt": "",
         "correct": false
       },
       {
         "idx": 7,
         "pred": 1.64,
-        "gt": 1.6,
+        "gt": "1.6%",
         "correct": false
       },
       {
         "idx": 8,
         "pred": -24.0,
-        "gt": 24.0,
+        "gt": "24",
         "correct": false
       },
       {
         "idx": 9,
-        "pred": 325.77,
-        "gt": 325.7,
+        "pred": 325.766666,
+        "gt": "325.7",
         "correct": true
       },
       {
         "idx": 10,
-        "pred": 8.35,
-        "gt": -3.4,
+        "pred": 28.4,
+        "gt": "-3.4%",
         "correct": false
       },
       {
         "idx": 11,
         "pred": -71.0,
-        "gt": -71.0,
+        "gt": "-71",
         "correct": true
       },
       {
         "idx": 12,
         "pred": 90.62,
-        "gt": 90.62,
+        "gt": "90.62%",
         "correct": true
       },
       {
         "idx": 13,
         "pred": -22.58,
-        "gt": -22.0,
+        "gt": "-22%",
         "correct": false
       },
       {
         "idx": 14,
         "pred": 0.0977,
-        "gt": 9.8,
+        "gt": "9.8%",
         "correct": false
       },
       {
         "idx": 15,
         "pred": 11.4,
-        "gt": 29.4,
+        "gt": "29.4%",
         "correct": false
       },
       {
         "idx": 16,
-        "pred": -1.0,
-        "gt": 150.0,
+        "pred": null,
+        "gt": "150",
         "correct": false
       },
       {
         "idx": 17,
         "pred": 2001.0,
-        "gt": 231341.7,
+        "gt": "231341.7",
         "correct": false
       },
       {
         "idx": 18,
         "pred": 19.2,
-        "gt": 19.23,
+        "gt": "19.23%",
         "correct": true
       },
       {
         "idx": 19,
         "pred": 14.24,
-        "gt": 14.2,
+        "gt": "14.2%",
         "correct": true
       },
       {
         "idx": 20,
         "pred": 142.2,
-        "gt": 126.0,
+        "gt": "126%",
         "correct": false
       },
       {
         "idx": 21,
-        "pred": 400000.0,
-        "gt": 0.4,
-        "correct": false
+        "pred": 0.4,
+        "gt": "0.4",
+        "correct": true
       },
       {
         "idx": 22,
-        "pred": 8304.0,
-        "gt": 25012.0,
+        "pred": 1000000.0,
+        "gt": "25012",
         "correct": false
       },
       {
         "idx": 23,
         "pred": 31.32,
-        "gt": 365.4,
+        "gt": "365.4",
         "correct": false
       },
       {
         "idx": 24,
-        "pred": 239.5,
-        "gt": 51.0,
+        "pred": null,
+        "gt": "51%",
         "correct": false
       },
       {
         "idx": 25,
         "pred": 5.54,
-        "gt": 5.54,
+        "gt": "5.54%",
         "correct": true
       },
       {
         "idx": 26,
         "pred": -84.0,
-        "gt": -84.0,
+        "gt": "-84",
         "correct": true
       },
       {
         "idx": 27,
-        "pred": 88.57,
-        "gt": 88.57,
-        "correct": true
+        "pred": 0.856,
+        "gt": "88.57",
+        "correct": false
       },
       {
         "idx": 28,
         "pred": 88.6,
-        "gt": 88.6,
+        "gt": "88.6%",
         "correct": true
       },
       {
         "idx": 29,
         "pred": 41.43,
-        "gt": 41.4,
+        "gt": "41.4%",
         "correct": true
       },
       {
         "idx": 30,
         "pred": 6.2,
-        "gt": 6.2,
+        "gt": "6.20",
         "correct": true
       },
       {
         "idx": 31,
         "pred": 10.8,
-        "gt": 19.4,
+        "gt": "19.4%",
         "correct": false
       },
       {
         "idx": 32,
-        "pred": 46400000.0,
-        "gt": 46.4,
+        "pred": 426.6,
+        "gt": "46.4",
         "correct": false
       },
       {
         "idx": 33,
         "pred": -8.51,
-        "gt": 9.3,
+        "gt": "9.3%",
         "correct": false
       },
       {
         "idx": 34,
         "pred": 0.0,
-        "gt": 405.0,
+        "gt": "405",
         "correct": false
       },
       {
         "idx": 35,
-        "pred": -2017.0,
-        "gt": null,
+        "pred": 5.0,
+        "gt": "yes",
         "correct": false
       },
       {
         "idx": 36,
         "pred": 100.0,
-        "gt": 54.0,
+        "gt": "54%",
         "correct": false
       },
       {
         "idx": 37,
         "pred": 2013.0,
-        "gt": 18.2,
+        "gt": "18.2%",
         "correct": false
       },
       {
         "idx": 38,
         "pred": 14.25,
-        "gt": 14.3,
+        "gt": "14.3%",
         "correct": true
       },
       {
         "idx": 39,
         "pred": 2011.0,
-        "gt": 22.0,
+        "gt": "22",
         "correct": false
       },
       {
         "idx": 40,
         "pred": -2.8,
-        "gt": -3.0,
+        "gt": "-3%",
         "correct": false
       },
       {
         "idx": 41,
         "pred": -1.62,
-        "gt": -1.6,
+        "gt": "-1.6%",
         "correct": false
       },
       {
         "idx": 42,
         "pred": 5400.0,
-        "gt": 2430.0,
+        "gt": "2430",
         "correct": false
       },
       {
         "idx": 43,
         "pred": 0.0,
-        "gt": 4.8,
+        "gt": "4.8%",
         "correct": false
       },
       {
         "idx": 44,
         "pred": 16.8,
-        "gt": 16.93,
+        "gt": "16.93%",
         "correct": true
       },
       {
         "idx": 45,
-        "pred": 30.0,
-        "gt": 324.0,
-        "correct": false
+        "pred": 324.0,
+        "gt": "324",
+        "correct": true
       },
       {
         "idx": 46,
         "pred": 98.27,
-        "gt": 98.27,
+        "gt": "98.27%",
         "correct": true
       },
       {
         "idx": 47,
         "pred": 60.8,
-        "gt": 7.14,
+        "gt": "7.14",
         "correct": false
       },
       {
         "idx": 48,
-        "pred": 704.25,
-        "gt": 704.25,
-        "correct": true
+        "pred": 1000000.0,
+        "gt": "704.25",
+        "correct": false
       },
       {
         "idx": 49,
         "pred": 190.0,
-        "gt": 28000.0,
+        "gt": "28000",
         "correct": false
       },
       {
         "idx": 50,
         "pred": 0.0,
-        "gt": 0.3,
+        "gt": "0.3%",
         "correct": false
       },
       {
         "idx": 51,
-        "pred": -1900000.0,
-        "gt": -1.9,
-        "correct": false
+        "pred": -1.9,
+        "gt": "-1.9",
+        "correct": true
       },
       {
         "idx": 52,
         "pred": 2.17,
-        "gt": 12.0,
+        "gt": "12%",
         "correct": false
       },
       {
         "idx": 53,
         "pred": -2.91,
-        "gt": -2.9,
+        "gt": "-2.9%",
         "correct": true
       },
       {
         "idx": 54,
         "pred": 0.245,
-        "gt": 24.6,
+        "gt": "24.6%",
         "correct": false
       },
       {
         "idx": 55,
         "pred": -9.73,
-        "gt": -9.7,
+        "gt": "-9.7%",
         "correct": true
       },
       {
         "idx": 56,
         "pred": 65.27,
-        "gt": 65.3,
+        "gt": "65.3%",
         "correct": true
       },
       {
         "idx": 57,
         "pred": 17290.0,
-        "gt": 9.7,
+        "gt": "9.7%",
         "correct": false
       },
       {
         "idx": 58,
-        "pred": 1.08,
-        "gt": 42.0,
+        "pred": 2006.0,
+        "gt": "42.0",
         "correct": false
       },
       {
         "idx": 59,
         "pred": -13636.0,
-        "gt": -13636.0,
+        "gt": "-13636",
         "correct": true
       },
       {
         "idx": 60,
         "pred": 66.7,
-        "gt": 66.6,
+        "gt": "66.6%",
         "correct": true
       },
       {
         "idx": 61,
-        "pred": -2011.0,
-        "gt": null,
+        "pred": 1000000.0,
+        "gt": "",
         "correct": false
       },
       {
         "idx": 62,
         "pred": -25.18,
-        "gt": -25.0,
+        "gt": "-25%",
         "correct": true
       },
       {
         "idx": 63,
         "pred": 20704.0,
-        "gt": 20704.0,
+        "gt": "20704",
         "correct": true
       },
       {
         "idx": 64,
-        "pred": 52.04,
-        "gt": 52.04,
-        "correct": true
+        "pred": 0.5204,
+        "gt": "52.04%",
+        "correct": false
       },
       {
         "idx": 65,
         "pred": 24.2,
-        "gt": 75.8,
+        "gt": "75.8%",
         "correct": false
       },
       {
         "idx": 66,
         "pred": 2012.0,
-        "gt": 92.0,
+        "gt": "92",
         "correct": false
       },
       {
         "idx": 67,
         "pred": 1337.0,
-        "gt": 410.08,
+        "gt": "410.08",
         "correct": false
       },
       {
         "idx": 68,
         "pred": 34.17,
-        "gt": 30.4,
+        "gt": "30.4%",
         "correct": false
       },
       {
         "idx": 69,
-        "pred": 18178000000.0,
-        "gt": 18178.0,
-        "correct": false
+        "pred": 18178.0,
+        "gt": "18178",
+        "correct": true
       },
       {
         "idx": 70,
         "pred": -70.3,
-        "gt": -70.3,
+        "gt": "-70.3%",
         "correct": true
       },
       {
         "idx": 71,
         "pred": 89.8,
-        "gt": 78.0,
+        "gt": "78%",
         "correct": false
       },
       {
         "idx": 72,
         "pred": 22.0,
-        "gt": 22.0,
+        "gt": "22%",
         "correct": true
       },
       {
         "idx": 73,
         "pred": -64.9,
-        "gt": -65.1,
+        "gt": "-65.1%",
         "correct": true
       },
       {
         "idx": 74,
         "pred": 0.05,
-        "gt": 18.8,
+        "gt": "18.8",
         "correct": false
       },
       {
         "idx": 75,
         "pred": -3.4375,
-        "gt": -3.4,
+        "gt": "-3.4%",
         "correct": false
       },
       {
         "idx": 76,
-        "pred": 39.74,
-        "gt": 74.0,
+        "pred": 97.8,
+        "gt": "74",
         "correct": false
       },
       {
         "idx": 77,
         "pred": -2.1,
-        "gt": -2.1,
+        "gt": "-2.1%",
         "correct": true
       },
       {
         "idx": 78,
         "pred": -88.6,
-        "gt": 780.0,
+        "gt": "780%",
         "correct": false
       },
       {
         "idx": 79,
         "pred": 98.75,
-        "gt": 98.75,
+        "gt": "98.75%",
         "correct": true
       },
       {
         "idx": 80,
         "pred": 0.0,
-        "gt": -11.9,
+        "gt": "-11.9",
         "correct": false
       },
       {
         "idx": 81,
         "pred": 9.48,
-        "gt": 19.1,
+        "gt": "19.1%",
         "correct": false
       },
       {
         "idx": 82,
         "pred": 127.1,
-        "gt": null,
+        "gt": "the total balance in 2018 including interest and penalties would be $ 56.7 million .",
         "correct": false
       },
       {
         "idx": 83,
         "pred": 29.5,
-        "gt": 29.0,
+        "gt": "29%",
         "correct": false
       },
       {
         "idx": 84,
         "pred": 1.13,
-        "gt": 1.44,
+        "gt": "1.44",
         "correct": false
       },
       {
         "idx": 85,
         "pred": 822.07,
-        "gt": 822.06,
+        "gt": "822.06",
         "correct": true
       },
       {
         "idx": 86,
         "pred": 7.68,
-        "gt": 7.7,
+        "gt": "7.7",
         "correct": true
       },
       {
         "idx": 87,
         "pred": 46.5,
-        "gt": 27.0,
+        "gt": "27%",
         "correct": false
       },
       {
         "idx": 88,
         "pred": 10.1,
-        "gt": 10.0,
+        "gt": "10%",
         "correct": true
       },
       {
         "idx": 89,
         "pred": 47685.0,
-        "gt": 61545.0,
+        "gt": "61545",
         "correct": false
       },
       {
         "idx": 90,
-        "pred": 2012.0,
-        "gt": null,
+        "pred": null,
+        "gt": "yes",
         "correct": false
       },
       {
         "idx": 91,
         "pred": 18.38,
-        "gt": 46.34,
+        "gt": "46.34%",
         "correct": false
       },
       {
         "idx": 92,
-        "pred": 9.06,
-        "gt": 10.6,
+        "pred": 9.0625,
+        "gt": "10.6%",
         "correct": false
       },
       {
         "idx": 93,
         "pred": 2.0,
-        "gt": 1.31,
+        "gt": "1.31",
         "correct": false
       },
       {
         "idx": 94,
         "pred": 23.0,
-        "gt": 23.0,
+        "gt": "23.0%",
         "correct": true
       },
       {
         "idx": 95,
         "pred": 15.7,
-        "gt": 16.0,
+        "gt": "16%",
+        "correct": false
+      },
+      {
+        "idx": 96,
+        "pred": -17.0,
+        "gt": "80.6%",
+        "correct": false
+      },
+      {
+        "idx": 97,
+        "pred": 53.7,
+        "gt": "54%",
+        "correct": true
+      },
+      {
+        "idx": 98,
+        "pred": 1899.0,
+        "gt": "7231",
+        "correct": false
+      },
+      {
+        "idx": 99,
+        "pred": 2008.0,
+        "gt": "77",
         "correct": false
       }
     ]

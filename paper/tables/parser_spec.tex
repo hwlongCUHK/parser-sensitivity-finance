@@ -1,0 +1,21 @@
+\begin{table}[t]
+\caption{Parser specification. All parsers normalize extracted values by stripping commas and trailing zeros in the fractional part of decimal numbers (e.g., ``2.30'' $\to$ ``2.3''). Numeric comparison uses exact match after normalization (no rounding tolerance). Full implementation is in the released code.}
+\label{tab:parser_spec}
+\centering
+\footnotesize
+\begin{tabular}{@{}lp{5.0cm}@{}}
+\toprule
+Parser & Specification \\
+\midrule
+\texttt{eq\_number} & First number following \texttt{=} sign (e.g., \texttt{= 42} $\to$ 42)\\
+\texttt{boxed} & Content of last \verb|\boxed{...}| macro\\
+\texttt{fixed} & (1)~\texttt{boxed}, (2)~last \texttt{eq\_number} as fallback\\
+\texttt{last\_number} & Last numeric token in the response, independent of formatting\\
+\texttt{fin\_aware} & \texttt{fixed} extended with: \$ stripping, M/B/K to $10^6$/$10^9$/$10^3$, parenthetical negatives, percentage suffix removal. Multiple candidates resolved by priority: \texttt{boxed} $>$ final-answer keyword $>$ last \texttt{=} number $>$ last number.\\
+\midrule
+Gold normalization & Strip commas, trailing zeros, whitespace; compare as-is\\
+\% handling & Values compared in the form given by the gold answer\\
+No match & Score as incorrect (accuracy = 0)\\
+\bottomrule
+\end{tabular}
+\end{table}

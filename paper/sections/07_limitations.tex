@@ -1,0 +1,8 @@
+\section{Limitations}
+\label{sec:limitations}
+
+We evaluate three models from two families (Qwen3, ChatGLM); confirming the effect across Llama, Mistral, and proprietary models remains necessary. Our experiments use two financial and four mathematical benchmarks; additional financial benchmarks such as ConvFinQA~\cite{chen2022convfinqa} would strengthen generalizability. GLM is used only on financial benchmarks; exhaustive cross-domain coverage for all architectures could further strengthen the comparison.
+
+The cross-domain comparison may conflate domain knowledge with answer-space complexity: mathematical benchmarks have simple-integer answers while financial benchmarks contain percentages, currencies, and magnitudes. Future work should construct matched counterfactual datasets to separate these factors. Each benchmark uses $n=100$ randomly sampled items per benchmark (fixed seed); with $\sim$1\,pp per question, small spread differences should be interpreted cautiously. FinQA's full test set contains approximately 8K QA pairs.
+
+All models are open-weight; whether structured output APIs reduce sensitivity remains open. Our parser audit covers seven frameworks and is illustrative, not comprehensive.

@@ -1,0 +1,30 @@
+\section{Discussion}
+\label{sec:implications}
+
+The results in Section~\ref{sec:results} show that answer extraction is not a solved problem but an active source of measurement error in financial LLM evaluation. We outline implications for benchmark designers and practitioners, and propose a concrete reporting protocol.
+
+\subsection{For Benchmark Designers}
+\label{sec:impl_benchmark}
+
+An accuracy number reported without specifying the extraction method is incomplete. Our experiments show that the choice of parser can shift accuracy by up to 87\pp{} (Table~\ref{tab:cross_domain}) and that the optimal parser differs across financial benchmarks even within the same domain. The ecosystem audit (Section~\ref{sec:parser_audit}) further reveals that no shared extraction standard exists and that several frameworks do not fully document their procedures. For benchmark designers, this means that extraction methodology must be treated as part of the measurement instrument: it should be specified, released, and tested for sensitivity, just as the evaluation dataset and metric are. We provide a concrete protocol in Section~\ref{sec:protocol}.
+
+\subsection{Operational and Governance Implications}
+\label{sec:impl_operations}
+
+Parser sensitivity has practical consequences for model selection and deployment. Our FinQA results show that model rankings depend on parser choice: a practitioner selecting a model from a published leaderboard has no guarantee that the benchmark's extraction method matches their production pipeline. If rankings change between parsers, the benchmark is measuring the interaction between output format and parser logic rather than financial reasoning ability, and deployment decisions should be based on task-specific evaluation with the production parser.
+
+A concrete example illustrates the magnitude of the risk. A model validated at 44\% accuracy on FinQA (Qwen3-8B under \texttt{last\_number}) could operate at 11\% accuracy if the production pipeline uses a different parser (the \numparser{} result on the same outputs)---a 33\,pp drop with no change to the model itself. This gap is relevant to model governance: the EU AI Act~\cite{euaiact} requires accuracy testing suitable for the intended purpose, and emerging financial regulatory guidance emphasizes that validation should reflect conditions of use~\cite{sr2602}. While we do not make legal conclusions, the example illustrates how extraction pipelines, which are rarely version-controlled, can introduce undisclosed divergence between tested and deployed system behavior.
+
+\subsection{Recommended Extraction Protocol}
+\label{sec:protocol}
+
+Based on our findings, we recommend the following protocol for financial LLM evaluation:
+
+\begin{enumerate}
+    \item \textbf{Canonical answer format.} Benchmarks should prescribe a specific answer format (e.g., final numeric value on the last line, or a structured schema) that models are expected to produce. This makes the extraction contract explicit and uniform across models---unlike per-model native-format selection, which would introduce model-dependent measurement instruments and reduce leaderboard comparability.
+    \item \textbf{Structured output as primary metric.} Where feasible, use constrained decoding or structured output APIs to enforce the canonical format. When constrained decoding is unavailable, report the format compliance rate alongside accuracy.
+    \item \textbf{Multi-parser sensitivity as a diagnostic.} Report accuracy under at least two extraction methods (e.g., the canonical parser and a format-agnostic fallback). The spread between them is a diagnostic of extraction robustness, not a second accuracy number.
+    \item \textbf{Disagreement auditing.} Flag questions where the canonical and fallback parsers disagree for manual review. A high disagreement rate signals that extraction noise affects the reported error rate.
+\end{enumerate}
+
+We emphasize that multi-parser sensitivity reporting is a diagnostic tool, not a replacement for a well-defined evaluation contract. Our oracle analysis shows that even perfect multi-parser aggregation improves accuracy by only 1--2\,pp, so investment should go toward canonical formats rather than increasingly sophisticated post-hoc parsers.

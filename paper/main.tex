@@ -1,0 +1,74 @@
+\documentclass[sigconf,review]{acmart}
+
+\AtBeginDocument{%
+  \providecommand\BibTeX{{Bib\TeX}}}
+
+\setcopyright{acmlicensed}
+\copyrightyear{2026}
+\acmYear{2026}
+\acmDOI{10.1145/nnnnnnn.nnnnnnn}
+
+\acmConference[ICAIF '26]{7th ACM International Conference on AI in Finance}{November 14--17, 2026}{Milan, Italy}
+\acmISBN{978-1-4503-XXXX-X/2026/11}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{subcaption}
+
+% Compact lists (inline, no external package needed for acmart)
+
+\newcommand{\numparser}{\texttt{=NUMBER}}
+\newcommand{\boxedparser}{\texttt{\textbackslash{}boxed\{\}}}
+\newcommand{\pp}{\,\text{pp}}
+
+\begin{document}
+
+\title{How You Parse the Answer Changes Who Wins: Extraction Sensitivity in Financial LLM Benchmarks}
+
+\author{Anonymous Author(s)}
+\affiliation{%
+  \institution{Anonymous Institution}
+  \country{}}
+
+\begin{abstract}
+Answer extraction---the step that reads a model's output to determine whether it got the right answer---is a hidden measurement variable in LLM evaluation. Two research groups can evaluate the same model on the same benchmark and reach contradictory conclusions, not because their models differ, but because their extraction code does. Yet across seven major evaluation frameworks, no shared, documented extraction protocol exists, and several do not document their method at all. We audit five parsers across three models and six benchmarks spanning financial reasoning and mathematical controls. The headline is not that incompatible parsers produce extreme gaps---that is expected. The finding is that even among format-compatible parsers, financial benchmarks retain substantially larger residual sensitivity than mathematical ones, and that the root cause differs by benchmark: on FinQA, the spread is partially driven by financial surface forms and partially by output-level conventions (multi-step extraction position and answer normalization); on FLARE-FinQA, the gap increases after stripping financial formats because \texttt{finance\_aware} correctly handles those formats. Parser choice also changes who wins: on FinQA, model rankings can fully invert under some parser pairs, while FLARE-FinQA rankings are robust---an asymmetry that is itself a finding about benchmark design. We propose that benchmarks adopt canonical answer formats as their primary evaluation metric, with multi-parser spread reported as a robustness diagnostic. Code and data are available at \url{https://anonymous.4open.science/status/parser-sensitivity-finance-D385}.
+\end{abstract}
+
+\begin{CCSXML}
+<ccs2012>
+   <concept>
+       <concept_id>10010147.10010178.10010187</concept_id>
+       <concept_desc>Computing methodologies~Natural language processing</concept_desc>
+       <concept_significance>500</concept_significance>
+   </concept>
+   <concept>
+       <concept_id>10002944.10011123.10010916</concept_id>
+       <concept_desc>General and reference~Evaluation</concept_desc>
+       <concept_significance>500</concept_significance>
+   </concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Computing methodologies~Natural language processing}
+\ccsdesc[500]{General and reference~Evaluation}
+
+\keywords{LLM evaluation, answer extraction, financial NLP, benchmark reliability, parser sensitivity}
+
+\maketitle
+
+\input{sections/01_introduction}
+\input{sections/02_background}
+\input{sections/02b_parser_audit}
+\input{sections/03_finance_challenges}
+\input{sections/04_setup}
+\input{sections/05_results}
+\input{sections/06_implications}
+\input{sections/08_conclusion}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+\end{document}

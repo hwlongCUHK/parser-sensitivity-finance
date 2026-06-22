@@ -1,0 +1,41 @@
+\section{Finance-Specific Extraction Challenges}
+\label{sec:finance_challenges}
+
+Financial answer extraction is genuinely harder than extraction for general mathematical reasoning. Standard math benchmarks such as GSM8K produce outputs with clean numeric answers---integers or simple decimals---that regex parsers handle reliably. Financial reasoning introduces surface forms tied to real-world conventions: currency denominations, magnitude suffixes, percentage representations, and accounting notation. These conventions create systematic ambiguities that cause extraction failures even when the model has computed the correct answer.
+
+We conducted a manual audit of 104 model responses across the Qwen3 and GLM families on FinQA, classifying every case where the \numparser{} parser failed to extract the correct answer despite the model producing a response containing a numeric value. The 104 cases comprise extraction failures from the three evaluated models across both architecture families. Two authors independently classified each failure into one of six categories; initial agreement was 87\%, and disagreements were resolved by discussion. Categories are mutually exclusive: each failure is assigned to the single most proximate cause. Table~\ref{tab:taxonomy} presents the resulting taxonomy with observed frequencies.
+
+\begin{table}[htb!]
+\caption{Finance-specific extraction failure modes observed in model outputs. Frequencies from manual audit of 104 model responses across Qwen3 and GLM families.}
+\label{tab:taxonomy}
+\centering
+\footnotesize
+\begin{tabular}{@{}lllr@{}}
+\toprule
+Category & Example & Parser Result & Freq. \\
+\midrule
+Format miss & \verb|\boxed{2847}| & None (missed) & 40\% \\
+Magnitude & \$2.3M = 2.3e6 & 2.3e6 vs 2.3M & 15\% \\
+Multi-step & S1:500, Final:1250 & 500 (1st match) & 15\% \\
+Currency & = \$45.2M & 45.2 (strip \$,M) & 12\% \\
+Percentage & Growth = 15.3\% & 15.3 vs 0.153 & 10\% \\
+Sign & Loss (2.1) & 2.1 vs $-$2.1 & 8\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Format mismatch} (40\%) is the dominant failure. Models trained on mathematical reasoning emit answers in \verb|\boxed{}| format, but the \numparser{} parser expects numbers after equals signs and returns no match. The answer is present but invisible to the parser.
+
+\textbf{Magnitude confusion} (15\%) arises from financial conventions for large numbers. A model writing both ``\$2.3~million'' and ``= 2300000'' creates two valid representations; a parser may capture the wrong one relative to the gold answer. This failure is absent from benchmarks with simple integer answers.
+
+\textbf{Multi-step extraction} (15\%) occurs when models show intermediate calculations. Financial problems often require sequential steps, and a parser that captures the first numeric match extracts an intermediate result rather than the final answer.
+
+\textbf{Currency prefix stripping} (12\%) happens when parsers drop \$ and magnitude suffixes: ``\$45.2M'' becomes ``45.2.'' This is specific to financial text---general math benchmarks do not use currency-denominated answers.
+
+\textbf{Percentage normalization} (10\%) reflects the ambiguity between ``15.3\%'' and ``0.153.'' Whether the gold answer uses percentage-point or decimal form varies across and within benchmarks.
+
+\textbf{Sign convention} (8\%) stems from accounting notation where parentheses denote negatives: ``(2.1)'' means $-2.1$. Standard regex patterns do not interpret parenthetical notation as negative values.
+
+A substitution test provides evidence for the finance-specific nature of these failures: for a subset of 50 cases, we replaced financial surface forms with equivalent plain arithmetic (e.g., ``\$2.3~million'' $\to$ ``2300000,'' ``(2.1)'' $\to$ ``$-$2.1'') and re-ran the \numparser{} extraction. This eliminated 88\% of extraction failures (44/50), with the remaining failures being format mismatch and multi-step extraction---categories that also occur in general math evaluation but at lower frequency. We note that format mismatch (40\%) and multi-step extraction (15\%) are not unique to finance; however, the remaining four categories (magnitude, currency, percentage, sign) are driven by financial surface conventions and collectively account for 45\% of failures. Our cross-domain parser comparison (Section~\ref{sec:cross_domain}) provides direct evidence that these finance-specific failure categories translate into larger residual parser sensitivity on financial benchmarks than on mathematical ones.
+
+This taxonomy has two scope limitations. First, it is based on FinQA outputs; a parallel audit across all six benchmarks would provide a more complete decomposition of extraction failures. Second, the main taxonomy was constructed from \numparser{} failures. To directly characterize the residual sensitivity at the core of our two-layer thesis, we conducted a supplementary audit of the 23 cases where \texttt{fixed}, \texttt{last\_number}, and \texttt{finance\_aware} disagree on FinQA 8B (the condition with the largest Res-B spread of 19\,pp). A human annotator classified each case into one of four categories: multi-step extraction (35\%, parsers disagree on intermediate vs.\ final values), gold-answer normalization (26\%, correct extraction penalized by gold-answer formatting conventions), model reasoning errors (26\%, the model output is factually wrong and parsers disagree on it), and sign convention (13\%). This confirms that even among format-compatible parsers, the dominant sources of disagreement are domain-relevant: multi-step financial reasoning traces, percentage/sign normalization, and gold-answer format conventions---not surface-level format mismatch.

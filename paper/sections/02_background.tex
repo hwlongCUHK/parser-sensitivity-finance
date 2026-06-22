@@ -1,0 +1,23 @@
+\section{Background and Related Work}
+\label{sec:background}
+
+\subsection{Financial LLM Benchmarks}
+\label{sec:financial_benchmarks}
+
+Several benchmarks target numerical reasoning over financial documents. FinQA~\cite{chen2021finqa} introduced a dataset requiring multi-step numerical reasoning over tables and text from S\&P~500 earnings reports. TAT-QA~\cite{zhu2021tatqa} broadened coverage to tabular and textual hybrid reasoning. More recently, FinBen~\cite{xie2024finben} proposed an open-source benchmark suite spanning 24 tasks across 42 datasets, and PIXIU~\cite{xie2023pixiu} provided a multi-task benchmark with an instruction-tuning dataset for financial language understanding.
+
+These benchmarks have driven rapid progress in financial LLM evaluation, but they share a critical gap: most do not fully document the answer extraction pipeline used to produce reported accuracy numbers. Papers typically report that model outputs were compared against gold answers using ``exact match'' or ``accuracy,'' without fully specifying how the predicted answer was isolated from the model's free-form response and normalized before scoring. This omission means that many published results are not reproducible from paper descriptions alone, and even when code is available, parser choice is rarely highlighted as a variable that could change the reported numbers.
+
+\subsection{Answer Extraction in NLP Evaluation}
+\label{sec:extraction_methods}
+
+Three broad approaches exist for extracting structured answers from LLM outputs. \textit{Regex-based extraction} applies pattern matching to the model's text, searching for numbers following keywords (``the answer is''), after equals signs, or inside formatting macros such as \verb|\boxed{}|. This is the dominant approach in open-source evaluation harnesses. \textit{Constrained decoding} restricts the model's output vocabulary at generation time to force a specific format, but requires access to model logits and is unavailable for API-served models. \textit{LLM-as-judge}~\cite{zheng2024judging} uses a second language model to evaluate the first model's output, trading parser brittleness for the judge model's own biases and costs.
+
+In practice, most financial benchmark evaluations rely on regex extraction applied to free-form chain-of-thought~\cite{wei2022chain} outputs. Major open-source evaluation frameworks---including lm-evaluation-harness~\cite{gao2024eleuther} and HELM~\cite{liang2023helm}---each implement their own extraction logic. For instance, lm-evaluation-harness uses a cascade of regex patterns that includes equals-sign matching similar to our \numparser{} baseline, while HELM applies format-specific extractors depending on the task configuration. The specific regex varies across codebases and is rarely disclosed in publications, creating a situation where the same model outputs can yield different accuracy numbers depending on which evaluation harness is used---a form of measurement error that is invisible to readers of the resulting papers.
+
+\subsection{Evaluation Methodology and Reproducibility}
+\label{sec:reproducibility}
+
+Concerns about benchmark reliability in machine learning are not new. Leaderboard sensitivity to hyperparameter choices, dataset contamination, and evaluation protocol differences have been documented across NLP tasks. Our work identifies a more basic problem: even when the model, prompt, and dataset are held constant, the choice of extraction regex is sufficient to change accuracy by tens of percentage points and invert model rankings.
+
+This connects to broader concerns about reproducibility in AI evaluation. If two research groups evaluate the same model on the same benchmark but use different parsers, they will reach different conclusions about model capability---and neither group will know that their results disagree, because parser choice is not reported. The financial domain amplifies this risk because its surface forms are more varied than those of standard mathematical benchmarks, as we detail in Section~\ref{sec:finance_challenges}.

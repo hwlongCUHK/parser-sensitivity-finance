@@ -1,0 +1,62 @@
+\section{Experimental Setup}
+\label{sec:setup}
+
+We design experiments to isolate the effect of answer extraction from all other evaluation variables. The key methodological choice is a \textit{paired design}: we apply different parsers to the same set of model outputs, so that any accuracy difference is attributable solely to extraction, not to stochastic variation in model generation.
+
+\subsection{Models}
+\label{sec:models}
+
+We evaluate three models spanning two architecture families:
+
+\begin{itemize}
+    \item \textbf{Qwen3-8B}: A dense 8B-parameter model~\cite{qwen2024}.
+    \item \textbf{Qwen3-1.7B}: A dense 1.7B-parameter model, included to test whether extraction sensitivity persists at small scale.
+    \item \textbf{GLM-4-9B-Chat}~\cite{glm2024}: From the ChatGLM family, included for cross-family validation. If extraction sensitivity were an artifact of Qwen3's output conventions, it would not appear in GLM outputs.
+\end{itemize}
+
+All models are run with greedy decoding (temperature = 0), BF16 precision, and a maximum output of 4096 tokens (math benchmarks) or 16384 tokens (financial benchmarks). Models use their default chat templates and non-thinking inference mode. Generation stops at the EOS token or the token budget, whichever occurs first. All results are obtained on a single GPU.
+
+\subsection{Datasets}
+\label{sec:datasets}
+
+We use six benchmarks across two domains. Qwen3-1.7B and Qwen3-8B are evaluated on both mathematical controls and financial benchmarks; GLM-4-9B-Chat is evaluated on financial benchmarks for cross-family validation.
+
+\subsubsection{Financial Benchmarks}
+
+\begin{itemize}
+    \item \textbf{FinQA}~\cite{chen2021finqa}: 100 problems from S\&P~500 10-K and 10-Q filings. Problems involve table-text hybrid reasoning with free-form numerical answers derived from financial statements.
+    \item \textbf{FLARE-FinQA}~\cite{xie2024finben}: 100 problems from a financial question-answering benchmark requiring numerical computation over tables and text. Problems focus on entity-specific financial metrics (margins, growth rates, ratios) expressed in varied surface forms including percentages and scaled quantities.
+\end{itemize}
+
+\subsubsection{Mathematical Benchmarks (Controls)}
+
+\begin{itemize}
+    \item \textbf{GSM8K}~\cite{cobbe2021gsm8k}: 100 grade-school math word problems with integer answers. Included as a standard numeracy benchmark to test whether parser sensitivity is domain-specific.
+    \item \textbf{SVAMP}~\cite{patel2021svamp}: 100 simple arithmetic word problems with elementary operations and clean integer answers.
+    \item \textbf{ASDiv}~\cite{miao2020asdiv}: 100 diverse arithmetic word problems spanning multiple problem types.
+    \item \textbf{MultiArith}~\cite{roy2015multiarith}: 100 multi-step arithmetic word problems requiring sequential operations.
+\end{itemize}
+
+Due to single-GPU compute constraints, we evaluate on a uniformly-sized subsample of 100 randomly drawn items per benchmark, taken from the published test splits. We release the full item indices in our data release for exact reproduction. All datasets provide gold-standard numerical answers. We evaluate with exact numerical match after normalization (stripping commas, trailing zeros, and whitespace).
+
+\subsection{Extraction Methods}
+\label{sec:extraction}
+
+We compare five extraction methods:
+
+\begin{itemize}
+    \item \textbf{\numparser{} (eq\_number):} Extracts the first number following an equals sign. This pattern represents a baseline commonly found in open-source evaluation harnesses.
+    \item \textbf{\boxedparser{} (boxed):} Extracts content inside a \LaTeX{} \verb|\boxed{}| macro. Models trained on mathematical reasoning data frequently use this format.
+    \item \textbf{Fixed parser:} A two-stage parser that checks for \boxedparser{} first and falls back to the last \numparser{} match. This accommodates both output conventions.
+    \item \textbf{last\_number:} Extracts the last numeric token in the response, independent of formatting conventions.
+    \item \textbf{finance\_aware:} Handles currency symbols, percentage signs, magnitude suffixes (M/B/K/thousand/million/billion), and accounting parenthetical negatives, in addition to \boxedparser{} and \numparser{} patterns.
+\end{itemize}
+
+Table~\ref{tab:parser_spec} provides the complete specification. The \numparser{} parser is deliberately included to quantify the cost of format mismatch; our Res-A analysis focuses on the four non-\numparser{} parsers, including the potentially format-specific \boxedparser{} parser. Res-B further excludes \boxedparser{} and compares only \texttt{fixed}, \texttt{last\_number}, and \texttt{finance\_aware}, which are the parsers that are truly format-compatible for most model outputs.
+
+\input{tables/parser_spec.tex}
+
+\subsection{Statistical Protocol}
+\label{sec:statistics}
+
+We report bootstrap 95\% confidence intervals (10K resamples) for Res-A and Res-B spreads. All model outputs, parser implementations, and evaluation scripts are released for reproduction.

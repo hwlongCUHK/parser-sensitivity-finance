@@ -1,0 +1,4 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+Answer extraction is an uncontrolled measurement variable in financial LLM evaluation, not a trivial implementation detail. Across two financial benchmarks and three models, parser choice shifts reported accuracy by up to 19\,pp among format-compatible methods, compared with 1--7\,pp on mathematical controls. The root cause is benchmark-dependent, involving both financial surface forms and output-level conventions such as multi-step reasoning traces and answer normalization. No single parser is optimal, and rankings can invert across parsers. The primary practical implication is that benchmarks should adopt canonical answer formats as their primary evaluation contract, with multi-parser sensitivity reported as a diagnostic rather than a substitute.

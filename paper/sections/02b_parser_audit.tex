@@ -1,0 +1,35 @@
+\section{Benchmark Parser Ecosystem Audit}
+\label{sec:parser_audit}
+
+A benchmark score is only meaningful if the evaluation procedure is reproducible. We examined the extraction methodology used by seven major evaluation frameworks (four financial-specific, three general-purpose), searching both published papers and released code repositories. Table~\ref{tab:parser_ecosystem} summarizes the results.
+
+\begin{table}[htb!]
+\caption{Answer extraction methods across seven major LLM evaluation frameworks. Documentation status: Paper (described in the paper), Code only (discoverable only in released code), Undocumented (not fully specified in either).}
+\label{tab:parser_ecosystem}
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}llllc@{}}
+\toprule
+Framework & Extraction Method & Tolerance & Documentation & Judge\\
+\midrule
+FinQA~\cite{chen2021finqa} & Program execution + string comparison & Exact (program output) & Code only & Execution\\
+Finance\-Reasoning~\cite{zhang2025financereasoning} & LLM-as-judge (GPT-4o-mini) & 0.2\% relative & Paper & LLM\\
+FinBen~\cite{xie2024finben} & Task-specific via lm-eval (24 tasks across 42 datasets) & Varies & Code only & Mixed\\
+PIXIU~\cite{xie2023pixiu} & Marker (``Answer:'') & Implicit & Undocumented & Regex\\
+lm-eval-harness~\cite{gao2024eleuther} & Regex cascade & Exact/sympy & Code only & Regex\\
+HELM~\cite{liang2023helm} & Task-specific (exact, equiv, execution) & Varies & Code only & Mixed\\
+OpenCompass~\cite{opencompass2023} & Regex + task-specific & Undocumented & Undocumented & Regex\\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+
+Three findings stand out. \textbf{First, we found no shared, documented extraction protocol across these frameworks.} The documentation falls into three levels: documented in the paper, documented in released code only, and completely undocumented. FinanceReasoning describes its judging approach in the paper; FinQA, HELM, FinBen, and lm-eval-harness require code inspection to recover important extraction details; PIXIU and OpenCompass~\cite{opencompass2023} do not fully document their extraction and normalization pipelines in either the paper or released code.
+
+\textbf{Second, the documentation gap is substantial.} FinBen---the largest financial benchmark suite at 24 tasks across 42 datasets---delegates answer extraction to lm-eval-harness and does not describe its extraction or normalization procedures in its paper; while the code is released, recovering the extraction logic requires cross-referencing task-specific lm-eval configurations. PIXIU reports using ``exact match'' and ``Answer: marker parsing'' but does not specify its normalization pipeline beyond basic lowercasing and whitespace collapsing. OpenCompass~\cite{opencompass2023} provides no public documentation of answer extraction for its financial evaluation tasks. These omissions mean that published benchmark scores cannot be replicated purely from paper descriptions.
+
+\textbf{Third, tolerance choices differ fundamentally.} FinQA evaluates by executing model-generated programs and comparing the output to the gold answer via string matching after whitespace normalization (treating ``2.3'' and ``2.30'' as potentially unequal when normalization is incomplete); PIXIU uses implicit exact match with undocumented normalization; FinanceReasoning uses a 0.2\% relative tolerance; HELM uses task-specific tolerance that varies by scenario; lm-eval-harness uses exact symbolic equivalence via sympy. An answer that is correct under one tolerance regime can be wrong under another. These tolerance choices are never compared or tested for sensitivity.
+
+The practical consequence is that scores reported from different evaluation frameworks for the same model on the same benchmark are not directly comparable. To verify this directly, we implemented the extraction logic of three frameworks (lm-eval-harness, FinQA's official evaluator, and PIXIU's marker parsing) and applied them to our FinQA 8B model outputs. On the same outputs, the three frameworks produce accuracies of 40.0\%, 34.0\%, and 28.0\% respectively---a 12.0\,pp spread from identical model generations. This confirms that framework-level extraction differences alone are sufficient to change reported benchmark scores by double-digit percentage points.
+
+For each framework, we inspected the specific repository, file path, and function (commit hashes and search criteria are documented in our released materials). Where we report ``not documented,'' we distinguish between ``extraction logic absent from the published paper'' and ``extraction logic not discoverable in the released codebase.'' Our experimental results in Section~\ref{sec:results} quantify the measurement effect of this heterogeneity.
